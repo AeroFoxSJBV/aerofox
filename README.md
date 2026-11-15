@@ -1,3 +1,7 @@
+https://github.com/user-attachments/assets/240509f2-f080-4744-af4f-53fd5e23e7c7
+
+
+
 # 🦊 AeroFox: Evidence-Grounded Spacecraft Fire Safety Assistant
 
 &gt; **NASA Space Apps Challenge 2026** | Challenge: *Flame in Freefall* Developed by Team **AeroFox**
