@@ -30,6 +30,9 @@ git clone https://github.com/hannaginsicke/aerofox
 cd aerofox
 START_AEROFOX.bat
 
+🌐 Live Demo (Interactive Prototype): https://treo-usc-hardcover-stops.trycloudflare.com
+(Note: Ephemeral development tunnel hosted during judging).
+
 ```
 
 Note: On first startup, START\_AEROFOX.bat automatically verifies SHA-256 checksums, downloads the pinned llama.cpp runtime and GGUF weights, and launches the interface at http://127.0.0.1:8000.
