@@ -1,0 +1,26 @@
+FLEX-056 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 29, 2010
+	Test Time: 	19:13:22 (GMT)
+	CIR Test Number: 	194F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.72 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.97 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.56 
+	kavg  (mm2/s) = 	0.44 
+	Fiber: 	No
+	Dext  (mm) = 	3.04 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.80 O2/N2, 0.70 atm ambient environment.  The droplet drifts E after ignition and leaves the HiBMS FOV shortly after visible flame extinction.  The droplet the re-enters the HiBMS FOV from the E a few seconds prior to the stop of video recording.  There is vapor cloud formation in the color camera view approximately 20 sec after visible flame extinction.  It is not clear whether cool flame burning and extinction occurred for this test.
+

@@ -1,0 +1,27 @@
+FLEX-078 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, March 29, 2010
+	Test Time: 	17:49:23 (GMT)
+	CIR Test Number: 	175F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.46 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.66 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	No
+	Dext  (mm) = 	1.66 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.14/0.85 O2/N2, 1.0 atm ambient environment.  There was very little droplet motion after ignition.  Halfway through the burn, the droplet begins to drift E at approximately 3 mm/sec.  It drifts out of the HiBMS FOV just before flame extinction.  The extinction droplet diameter is extrapolated from the droplet history and the measured average burning rate constant just prior to the droplet leaving the HiBMS FOV.
+
+

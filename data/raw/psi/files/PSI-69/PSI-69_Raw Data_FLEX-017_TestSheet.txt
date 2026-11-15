@@ -1,0 +1,29 @@
+FLEX-017 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, July 1, 2009
+	Test Time: 	12:28:41 (GMT)
+	CIR Test Number: 	240R003
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 2.03 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.09 
+	CO2 Mole Fraction = 	 0.70 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.72 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.67 
+	kavg  (mm2/s) = 	1.72 
+	Fiber: 	No
+	Dext  (mm) = 	n/a (bubble burst)
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.21/0.09/0.70 O2/N2/CO2, 3.0 atm ambient environment.  The droplet drifts E in the HiBMS FOV after deployment, hits the igniter and then drifts N.  The droplet immediately begins to grow disrupts and finally shatters that causes flame extinction.  This was likely due to a gas bubble trapped in the droplet after deployment.
+
+
+
+

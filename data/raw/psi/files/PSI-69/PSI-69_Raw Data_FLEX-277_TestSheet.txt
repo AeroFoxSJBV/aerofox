@@ -1,0 +1,26 @@
+FLEX-277 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, December 5, 2011
+	Test Time: 	22:54:10 (GMT)
+	CIR Test Number: 	H15M102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.45 
+	Temperature (K) = 	 298.52 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.79 
+	kavg  (mm2/s) = 	0.63 
+	Fiber: 	No
+	Dext  (mm) = 	2.30 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.17/0.38/0.45 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts S in HiBMS FOV after deployment and ignition and out of FOV, but well after extinction.
+

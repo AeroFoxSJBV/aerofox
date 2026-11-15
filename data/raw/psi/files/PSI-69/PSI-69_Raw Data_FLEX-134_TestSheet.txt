@@ -1,0 +1,27 @@
+FLEX-134 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	14:57:06 (GMT)
+	CIR Test Number: 	C21H401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.39 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.66 
+	kavg  (mm2/s) = 	0.56 
+	Fiber: 	No
+	Dext  (mm) = 	2.88 
+
+COMMENTS:
+
+Free-floating heptane droplet in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  There were problems with gas bubbles during the dispense/stretch/deployment.  On this test there was a small gas bubble that burst during ignition and caused the droplet to oscillate.  The droplet drifts slowly SSE and out of the HiBMS FOV a few seconds after radiative extinction.  The droplet continues to vaporize at a relatively high rate after flame extinction although there are only a few seconds before the droplet left the HiBMS FOV.  There is a vapor cloud that forms 10 - 20 seconds after visible flame extinction.  The post visible flame extinction behavior is indicative of cool flame burning and extinction.
+
+

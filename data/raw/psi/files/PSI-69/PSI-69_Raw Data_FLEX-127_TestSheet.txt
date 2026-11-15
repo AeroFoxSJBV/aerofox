@@ -1,0 +1,27 @@
+FLEX-127 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, September 13, 2010
+	Test Time: 	19:22:49 (GMT)
+	CIR Test Number: 	C13M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.45 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.49 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.22 
+	kavg  (mm2/s) = 	0.38 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.53 
+
+COMMENTS:
+
+Fiber-supported methanol with no translation burning in a 0.17/0.38/0.45 O2/N2/CO2, 0.70 atm ambient environment.  The droplet remains within the HiBMS FOV for the entire test.  The flame then becomes very dim blue and is nearly cylindrical because of the flame quenching due to the support fiber.  There is little fiber glow after the droplet stops translating and from the flame measurements from the color camera, there are periodic oscillations of the flame size after the droplet stops translating.  The HiBMS IPSU stopped recording for a relatively large block of time just before igniter withdraw to about halfway through the burn.
+
+

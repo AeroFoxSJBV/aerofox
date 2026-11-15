@@ -1,0 +1,27 @@
+FLEX-268 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, November 28, 2011
+	Test Time: 	13:13:31 (GMT)
+	CIR Test Number: 	H13M102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.69 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.35 
+	Temperature (K) = 	 297.44 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.87 
+	kavg  (mm2/s) = 	0.60 
+	Fiber: 	No
+	Dext  (mm) = 	2.24 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.20/0.45/0.35 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts S in the HiBMS FOV after deployment and ignition, but remains within the FOV for the entire test.  A very dim flame barely detectable in the Color Camera.  Very long burn resulting in diffusive extinction, although the flame standoff grows throughout the test.
+
+

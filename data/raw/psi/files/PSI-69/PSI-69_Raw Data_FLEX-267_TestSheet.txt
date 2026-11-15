@@ -1,0 +1,30 @@
+FLEX-267 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, November 22, 2011
+	Test Time: 	20:58:21 (GMT)
+	CIR Test Number: 	H13H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.35 
+	Temperature (K) = 	 298.00 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.08 
+	kavg  (mm2/s) = 	0.67 
+	Fiber: 	No
+	Dext  (mm) = 	1.69 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.45/0.35 O2/N2/He, 0.70 atm ambient environment.  The droplet remains in the HiBMS FOV (and the FOV of all the cameras) for the entire test.  The flame grows throughout the test and gets dimmer until radiatively extinguishing after approximately 5 seconds.  There appears to be no evidence of cool flame formation (no rapid vaporization after visible flame extinction and no vapor cloud formed in the color camera view).
+
+
+
+
+

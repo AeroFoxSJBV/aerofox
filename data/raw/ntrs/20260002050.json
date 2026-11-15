@@ -1,0 +1,173 @@
+{
+ "id": 20260002050,
+ "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+ "abstract": "NASA and its Artemis commercial providers are continuing to address and mitigate materials flammability at the planned vehicle atmosphere on the lunar surface. Challenges include close integration between materials flammability, ignition control, fire mitigation, human physiology and performance, and spacesuit mobility and performance. Past NASA recommendations for exploration atmosphere identified some of these challenges as open work, but they were not funded through completion. In spring 2023, NASA created a team dedicated to this problem, including all relevant stakeholders, to develop a strategy to qualify the integrated issue, reduce the severity of its impacts, and provide alternative options to program management. This paper outlines key discussions, assumptions, interdependencies, analysis, and testing that led to the exploration atmosphere team\u2019s findings and recommendation of an alternate vehicle atmosphere and approach for early surface missions. These efforts not only shape the path to flight certification for those surface missions, but will improve the development and certification processes through updated materials flammability standards, vehicle configuration constraints, fire barrier effectiveness, ignition guidelines, and partial gravity impacts on flammability. Additionally, recent vehicle and spacesuit design efforts have allowed the team to challenge long-standing norms and assumptions to potentially provide more mission flexibility through work including fixed fire suppression, elevated spacesuit operating pressures, and advanced vehicle environmental control systems. The team has also identified areas where standards or guidelines do not yet exist for cumulative mission decompression sickness risk and partial gravity compensation factors. These efforts will lay the groundwork for future surface elements and missions to follow a similar process, thus reducing their development time and providing clear guidance on a path to certification.",
+ "stiType": "CONFERENCE_PAPER",
+ "distributionDate": "2026-07-16T05:00:00.0000000+00:00",
+ "publications": [
+  {
+   "submissionId": 20260002050,
+   "publisher": "International Conference on Environmental Systems",
+   "id": "aef192580921480e947a5c5f4294d8f3",
+   "publicationDate": "2026-07-13T05:00:00.0000000+00:00"
+  }
+ ],
+ "authorAffiliations": [
+  {
+   "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+   "sequence": 0,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Brian K Alpert"
+    },
+    "organization": {
+     "name": "Johnson Space Center",
+     "location": "Houston, United States"
+    }
+   },
+   "id": "7eae403c621e4a72ac9780afcb18e59f",
+   "userType": "CIVIL",
+   "userId": "5347ad5b564c486e8fca79741f756623"
+  },
+  {
+   "organizationId": "ff293352e05b51ca965411fc94f5e325",
+   "sequence": 1,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Logan Kennedy"
+    },
+    "organization": {
+     "name": "Marshall Space Flight Center",
+     "location": "Redstone Arsenal, United States"
+    }
+   },
+   "id": "a331a0ea56db471294c58cee94883f38",
+   "userType": "CIVIL",
+   "userId": "a194de00023c47138acd1e71644b9075"
+  },
+  {
+   "organizationId": "02643c9e9b525162877c70e4c186571b",
+   "sequence": 2,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "L Daren Welsh"
+    },
+    "organization": {
+     "name": "The Aerospace Corporation",
+     "location": "El Segundo, United States"
+    }
+   },
+   "id": "7393977400a24ca6b9aa9a43bbbe9071",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "a1df40e5d4514ef98c59318fe54ba8f2"
+  },
+  {
+   "organizationId": "924bcb16c1fe453b9cd3589c033003c0",
+   "sequence": 3,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "name": "Adam Young"
+    },
+    "organization": {
+     "name": "HX5 (United States)",
+     "location": "Fort Walton Beach, Florida, United States"
+    }
+   },
+   "id": "c11ae14c7b9041f2bcf57d4c94beaf49",
+   "userType": "OTHER",
+   "userId": "0bee5e556d6040e3b3dd93fe883dfede"
+  },
+  {
+   "organizationId": "807dd73498974a55b525d736836956e2",
+   "sequence": 4,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "name": "Gregory L Mercer"
+    },
+    "organization": {
+     "name": "NASA Communications Services",
+     "location": "Huntsville, Alabama, United States"
+    }
+   },
+   "id": "b0b4884cf3a84d3caa40efc2169b7e16",
+   "userType": "OTHER",
+   "userId": "9327fb011a204a7abea8d3be71216793"
+  },
+  {
+   "organizationId": "807dd73498974a55b525d736836956e2",
+   "sequence": 5,
+   "submissionId": 20260002050,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Daniel S Baird"
+    },
+    "organization": {
+     "name": "NASA Communications Services",
+     "location": "Huntsville, Alabama, United States"
+    }
+   },
+   "id": "03612b3365644b0097fca82080c17076",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "1e808c7f3ca64e58a0ced649871c4cc2"
+  }
+ ],
+ "center": {
+  "code": "JSC",
+  "name": "Johnson Space Center",
+  "id": "dd46994b91a94cb2a2722617cbbadc55"
+ },
+ "subjectCategories": [
+  "Space Transportation and Safety",
+  "Man/System Technology and Life Support"
+ ],
+ "keywords": [
+  "prebreathe",
+  "mobility",
+  "spacesuit",
+  "physiology",
+  "ignition",
+  "surface",
+  "atmosphere",
+  "flammability",
+  "Artemis"
+ ],
+ "copyright": {
+  "disclosedInvention": false,
+  "thirdPartyPermissionsProduced": false,
+  "submissionId": 20260002050,
+  "containsThirdPartyMaterial": true,
+  "thirdPartyLocationComments": "All third party images are properly cited and publicly available.",
+  "containsIndication": false,
+  "thirdPartyAgreement": true,
+  "id": "ff63418a0dba4ec9baf97d8830c8ac1d",
+  "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+  "thirdPartyContentCondition": "SUBMITTER_HAS_BEEN_ADVISED"
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "ICES-2026-324 Final.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20260002050/downloads/ICES-2026-324%20Final.pdf",
+    "pdf": "/api/citations/20260002050/downloads/ICES-2026-324%20Final.pdf",
+    "fulltext": "/api/citations/20260002050/downloads/ICES-2026-324%20Final.pdf.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": [
+  "ICES-2026-324"
+ ],
+ "aerofox_reason": "Surface-vehicle atmosphere considerations for Moon-to-Mars exploration",
+ "url": "https://ntrs.nasa.gov/citations/20260002050"
+}

@@ -1,0 +1,27 @@
+FLEX-062 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, March 11, 2010
+	Test Time: 	21:37:48 (GMT)
+	CIR Test Number: 	301F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.82 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 296.51 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.43 
+	kavg  (mm2/s) = 	0.39 
+	Fiber: 	No
+	Dext  (mm) = 	3.17 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.82 O2/N2, 1.0 atm ambient environment.  The droplet is nearly motionless after deployment and ignition and stays in the FOVs of all the cameras for the entire test.  The HiBMS IPSU stopped recording images for a short time after visible flame extinction.  There is continued rapid vaporization after visible flame extinction and the formation of a large vapor cloud.  This is indicative of cool flame burning and extinction following visible flame extinction.
+
+

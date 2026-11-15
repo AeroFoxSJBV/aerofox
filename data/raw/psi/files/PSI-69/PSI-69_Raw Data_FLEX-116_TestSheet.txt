@@ -1,0 +1,26 @@
+FLEX-116 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, September 1, 2010
+	Test Time: 	20:57:41 (GMT)
+	CIR Test Number: 	C11M401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.35 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.49 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.16 
+	kavg  (mm2/s) = 	0.46 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.57 
+
+COMMENTS:
+
+Fiber-supported methanol droplet (translated for approximately 3 sec. immediately after ignition) burning in a 0.20/0.45/0.35 O2/N2/CO2, 0.70 atm ambient environment.  This was a very clean test with very little droplet motion on the fiber.
+

@@ -1,0 +1,30 @@
+FLEX-279 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, December 8, 2011
+	Test Time: 	22:29:44 (GMT)
+	CIR Test Number: 	H19H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.39 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.54 
+	kavg  (mm2/s) = 	0.55 
+	Fiber: 	No
+	Dext  (mm) = 	2.91 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.21/0.79 O2/N2, 1.0 atm (nominally air) ambient environment.  The droplet stays in HiBMS FOV (it briefly drifts out well after visible flame extinction) for the entire test.  This test likely had a cool flame following visible flame extinction.  There was a large vapor cloud formed at the end of the test.
+
+
+
+
+

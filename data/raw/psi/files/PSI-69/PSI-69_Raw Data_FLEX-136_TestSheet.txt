@@ -1,0 +1,27 @@
+FLEX-136 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	17:30:58 (GMT)
+	CIR Test Number: 	C21H302
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.00 
+	N2 Mole Fraction = 	 0.00 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.79 
+
+TEST CONDITIONS 
+	Fuel: 	 
+	D0  (mm) = 	3.08 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts NW in the HiBMS view after deployment, then hits the igniter and moves in the NE direction and out of the HiBMS FOV.  There is no extinction droplet diameter reported because the droplet is in the HiBMS FOV for such a small fraction of the droplet lifetime.  It is unclear whether the droplet burned to completion of the flame extinguished at a finite droplet size, although given the ambient conditions and expected burning behavior, burnout is more likely.
+
+

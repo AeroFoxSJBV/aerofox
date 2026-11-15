@@ -1,0 +1,27 @@
+FLEX-105 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, June 16, 2010
+	Test Time: 	23:29:19 (GMT)
+	CIR Test Number: 	C08M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.11 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	4.17 
+	kavg  (mm2/s) = 	0.47 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.00 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  There is significant axial oscillatory motion on the fiber after deployment and igntion that persists after fiber translation stops about halfway through the flame lifetime.  The droplet then burns without axial or transverse motion until it disrupts and dislocated from the fiber coincident with flame extinction.
+
+

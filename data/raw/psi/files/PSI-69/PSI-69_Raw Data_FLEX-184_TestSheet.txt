@@ -1,0 +1,27 @@
+FLEX-184 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, December 31, 0002
+	Test Time: 	08:29:52 (GMT)
+	CIR Test Number: 	C09M501
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.98 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.72 
+	kavg  (mm2/s) = 	0.53 
+	Fiber: 	No
+	Dext  (mm) = 	NaN
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.23/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts S and out of the HiBMS and color camera FOVs relatively quickly after ignition.  It remains in the LLUV FOV for the entire test.  The droplet burns for a long time before diffusive extinction.
+
+

@@ -1,0 +1,27 @@
+FLEX-054 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 29, 2010
+	Test Time: 	11:27:01 (GMT)
+	CIR Test Number: 	190F003
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.80 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.97 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.56 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	No
+	Dext  (mm) = 	1.04 
+
+COMMENTS:
+
+Free-flaoating methanol droplet burning in a 0.20/0.80 O2/N2 , 0.7 atm ambient environment.  The droplet has almost no residual motion after ignition.  About 1/2 way though the test, the droplet begins to abruptly move NEE and then quickly changes direction to NE.  The droplet leaves the HiBMS FOV after the second change in direction.  It appears from the color camera that there may be some small gas bubbles in the droplet.  There is also some distortion in the droplet history right before the droplet changes direction.  This could be due to the expanding gas bubbles distorting the droplet, then bursting and imparting a momentum to the droplet.  The burning rate constant and flame standoff data are for the portion of the test before the disruption and change in direction.  There is no extinction droplet diameter listed because of the limited time the droplet is in the HiBMS FOV and the disruptions in the droplet during the burn.
+
+

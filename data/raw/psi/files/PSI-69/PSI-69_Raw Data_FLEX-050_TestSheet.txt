@@ -1,0 +1,26 @@
+FLEX-050 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 19, 2010
+	Test Time: 	14:08:17 (GMT)
+	CIR Test Number: 	209F004
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.34 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.57 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.98 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation in a nominally air (0.21/0.79 O2/N2), 1 atm ambient.  There are moderate transverse oscillations on the fiber throughout the test.  There is unique circulation patterns in the gas phase evident from the soot motion.  The droplet continues to vaporize linearly after visible flame extinction and there is a large vapor cloud formed nearly coincident with a plateau in the droplet history.  This is evidence of cool flame burning and extinction following visible flame extinction.
+

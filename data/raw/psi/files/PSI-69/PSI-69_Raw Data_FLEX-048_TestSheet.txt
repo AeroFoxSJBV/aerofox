@@ -1,0 +1,26 @@
+FLEX-048 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 12, 2010
+	Test Time: 	12:14:55 (GMT)
+	CIR Test Number: 	205F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.82 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.66 
+	kavg  (mm2/s) = 	0.27 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a nominally air (0.21/0.79 O2/N2), 1.0 atm ambient environment.  The droplet drifts E after the start of translation and out of the HiBMS FOV about 1/5th of the way through the test.  The flame remains with the LLUV and color camera FOVs for the entire test.  There is disruptive burning at the end of the test. 
+

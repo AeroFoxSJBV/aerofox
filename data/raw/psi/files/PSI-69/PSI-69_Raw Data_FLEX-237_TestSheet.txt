@@ -1,0 +1,27 @@
+FLEX-238 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, September 24, 2011
+	Test Time: 	02:44:09 (GMT)
+	CIR Test Number: 	H02H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.19 
+	N2 Mole Fraction = 	 0.71 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.10 
+	Temperature (K) = 	 299.71 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.59 
+	kavg  (mm2/s) = 	0.54 
+	Fiber: 	No
+	Dext  (mm) = 	0.52 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.19/0.71/0.10 O2/N2/He, 1.0 atm ambient environment.  The droplet drifts N in the HiBMS FOV after deployment and ignition and just out of the FOV before flame extinction/disruption.  There may have been a disruption coincident with flame extinction.
+
+

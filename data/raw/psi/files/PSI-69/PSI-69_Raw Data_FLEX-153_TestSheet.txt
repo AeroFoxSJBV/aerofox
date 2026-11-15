@@ -1,0 +1,27 @@
+FLEX-153 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, December 8, 2010
+	Test Time: 	21:08:17 (GMT)
+	CIR Test Number: 	C03M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.28 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.78 
+	kavg  (mm2/s) = 	0.42 
+	Fiber: 	No
+	Dext  (mm) = 	1.19 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts N after deployment and ignition, then begins to drift back to the center.  It stays in the HiBMS FOV until 4/5 of the way through the burn when the HiBMS stops recording data for about 5 seconds.  The HiBMS did not record data when the flame extinguished.  It was a long burn, with the extinction diameter estimated from the droplet history extrapolated until visible flame extinction using the measured burning rate constant for a short time right before recording stopped.
+
+

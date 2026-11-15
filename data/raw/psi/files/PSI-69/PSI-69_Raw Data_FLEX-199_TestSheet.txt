@@ -1,0 +1,27 @@
+FLEX-199 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, August 18, 2011
+	Test Time: 	01:55:56 (GMT)
+	CIR Test Number: 	C01H701
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.05 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.86 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.12 
+	kavg  (mm2/s) = 	0.53 
+	Fiber: 	No
+	Dext  (mm) = 	0.13 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.75/0.05 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifted N after deployment and ignition and out of HiBMS FOV.  The droplet leaves the HiBMS FOV before disruptive flame extinction at a very small droplet size.  The extinction droplet diameter is the estimated droplet diameter (from extrapolating the droplet history until the disruption using the measured burning rate constant) when the disruption occurs.
+
+

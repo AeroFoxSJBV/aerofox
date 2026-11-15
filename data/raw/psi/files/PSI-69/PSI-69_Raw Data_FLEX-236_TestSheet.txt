@@ -1,0 +1,30 @@
+FLEX-236 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, September 24, 2011
+	Test Time: 	01:06:33 (GMT)
+	CIR Test Number: 	N01H601
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.52 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.65 
+	kavg  (mm2/s) = 	0.57 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.85 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.21/0.79 O2/N2, 1.0 atm ambient environment.  The droplet has oscillations on the fiber throughout the burn, but remains in the HiBMS FOV.  Large soot agglomerates interfere with the droplet size measurement for a portion of the burn.  The flame radiatively extinguishes after a very long, slow, high amplitude oscillation.  This is followed by rapid vaporization with vapor cloud coincident with the plateau.  The droplet moves during the vaporization but it doesn't seem to inpact the size measurement significantly.  There is a small disruption near the end of the vaporization and a small jump in droplet size, maybe a gas bubble that bursts.  There was likely a cool flame and cool flame extinction following the visible flame extinction.
+
+
+
+
+

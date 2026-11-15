@@ -1,0 +1,27 @@
+FLEX-270 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, November 28, 2011
+	Test Time: 	15:07:28 (GMT)
+	CIR Test Number: 	H14M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.40 
+	Temperature (K) = 	 299.40 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.50 
+	kavg  (mm2/s) = 	0.59 
+	Fiber: 	No
+	Dext  (mm) = 	2.81 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.18/0.42/0.40 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts S in the HiBMS FOV after deployment and ignition, leaving the FOV when the visible flame extinguishes.  This was a large droplet and likely radiative extinction.
+
+

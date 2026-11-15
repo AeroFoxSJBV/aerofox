@@ -1,0 +1,27 @@
+FLEX-202 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, August 24, 2011
+	Test Time: 	16:18:58 (GMT)
+	CIR Test Number: 	C01M603
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.05 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.26 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.40 
+	kavg  (mm2/s) = 	0.48 
+	Fiber: 	No
+	Dext  (mm) = 	0.99 
+
+COMMENTS:
+
+Free-floating methanol droplet in a 0.20/0.75/0.05 O2/N2/CO2, 1.0 atm ambient environment.  The droplet has very little residual motion after deployment and ignition, drifting S in the HiBMS FOV, but very slowly.  The droplet stays in the FOVs of all the cameras for the entire test.
+
+

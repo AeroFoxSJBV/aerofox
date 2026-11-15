@@ -1,0 +1,27 @@
+FLEX-125 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, September 13, 2010
+	Test Time: 	21:07:02 (GMT)
+	CIR Test Number: 	C13M103
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.45 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.76 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.63 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	No
+	Dext  (mm) = 	3.37 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.17/0.38/0.45 O2/N2/CO2, 0.70 atm ambient evnironment.  The droplet stays in the FOV of all cameras after deployment and ignition.  The flame oscillates for one or two cycles before radiatively extinguishing.  This condition is very near, if not over, the flammability limit.  The Color Camera flame size data is a bit more reliable than the LLUV which had a lot of noise and a flame that was barely distinguishable from the background.
+
+

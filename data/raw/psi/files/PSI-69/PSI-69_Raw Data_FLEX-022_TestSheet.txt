@@ -1,0 +1,27 @@
+FLEX-022 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, October 24, 2009
+	Test Time: 	15:39:48 (GMT)
+	CIR Test Number: 	192F003
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.51 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.50 
+	kavg  (mm2/s) = 	0.65 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Freely-floating methanol droplet droplet burning in a 0.34/0.66 O2/N2, 0.7 atm ambient environment.  The droplet stays in the HiBMS FOV for the entire test and drifts slowly SSE during the test.  The droplet begins to change shape, becomes almost oblong with a pointed end (from the video) before disrupting.  The disruption is coincident with flame extinction.
+
+

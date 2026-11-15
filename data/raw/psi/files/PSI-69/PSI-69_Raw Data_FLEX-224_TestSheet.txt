@@ -1,0 +1,27 @@
+FLEX-224 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 9, 2011
+	Test Time: 	13:28:43 (GMT)
+	CIR Test Number: 	N06M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.12 
+	N2 Mole Fraction = 	 0.88 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.48 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	1.94 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	No
+	Dext  (mm) = 	1.05 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.12/0.88 O2/N2, 1.0 atm ambient environment.  The droplet drifts N after deployment and ignition and out of the HiBMS FOV about 3/4ths of the way through the burn.  The flame grows, then shrinks in response to the shrinking droplet.  The flame is very dim and difficult to see in the LLUV.  This is likely diffusive extinction.  The extinction droplet diameter results from extrapolating the droplet history to the time the flame extinguishes using the measured burning rate constant while the droplet is within the FOV.
+
+

@@ -1,0 +1,26 @@
+FLEX-249 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 5, 2011
+	Test Time: 	14:58:32 (GMT)
+	CIR Test Number: 	H05H103
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.16 
+	N2 Mole Fraction = 	 0.59 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.25 
+	Temperature (K) = 	 298.29 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.49 
+	kavg  (mm2/s) = 	0.60 
+	Fiber: 	No
+	Dext  (mm) = 	0.69 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.16/0.59/0.25 O2/N2/He, 1.0 atm ambient environment.  This is a smaller droplet that is nearly motionless after deployment and ignition.  It stays in the FOV of all the cameras.  The flame surrounding the droplet extinguishes at a very small size, near the limit of what we can reasonably measure.  The flame size is nearly constant throughout the burn, decreasing only slightly towards the end of the burn after only slightly increasing in size initially.  The flame standoff increases linearly throughout the burn.
+

@@ -1,0 +1,27 @@
+FLEX-227 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 9, 2011
+	Test Time: 	18:27:14 (GMT)
+	CIR Test Number: 	H01M104
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.05 
+	Temperature (K) = 	 299.86 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	No HiBMS data (estimate from downlink video ???)
+	kavg  (mm2/s) = 	No HiBMS data
+	Fiber: 	No
+	Dext  (mm) = 	No HiBMS data
+
+COMMENTS:
+
+Free-floating methanol droplet in a 0.20/0.75.0.05 O2/N2/He, 1.0 atm ambient environment.  The HiBMS IPSU failed to start and thus no droplet data was recorded.  The flame was bright and burned for over 5 seconds until a (presumed) diffusive extinction.
+
+

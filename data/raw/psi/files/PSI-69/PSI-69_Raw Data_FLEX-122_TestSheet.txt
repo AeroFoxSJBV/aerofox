@@ -1,0 +1,27 @@
+FLEX-122 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, September 8, 2010
+	Test Time: 	21:44:37 (GMT)
+	CIR Test Number: 	C12M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.40 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.76 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.46 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	No
+	Dext  (mm) = 	2.58 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.18/0.42/0.40 O2/N2/CO2, 0.7 atm ambient environment.  The droplet is almost motionless after deployment and ignition.  It then slowly drifts S and eventually out of the HiBMS FOV, but after flame extinction.  The flame appears to radially oscillate (primarily in intensity) a few seconds before extinction.  The droplet burns for about 15 sec and the flame appears weak but persists for quite a while.  Nice clean burn with no distortion or disruption.
+
+

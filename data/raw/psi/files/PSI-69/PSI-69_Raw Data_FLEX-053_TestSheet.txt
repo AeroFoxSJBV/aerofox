@@ -1,0 +1,25 @@
+FLEX-053 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 12, 2010
+	Test Time: 	16:29:37 (GMT)
+	CIR Test Number: 	209F002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.51 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.21/0.79 O2/N2, 1.0 atm ambient environment.  There was no HiBMS data for this test.  There was poor alignment between the needle and the droplet and the droplet did not get deployed on the fiber.  It drifted N in the color camera FOV after deployment and ignition and out of the FOV before the end of the test.  The droplet stayed in the LLUV FOV the entire test.  The discrepancy in the flame size between the LLUV and color camera is because the flame is much brighter at the leading edge than the trailing edge and that results in a some of the flame being cropped from the color camera images during analysis.

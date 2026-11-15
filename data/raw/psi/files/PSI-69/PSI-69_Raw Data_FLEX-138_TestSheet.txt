@@ -1,0 +1,25 @@
+FLEX-138 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	18:08:43 (GMT)
+	CIR Test Number: 	C21H304
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.81 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  The flame grew in size initially, got very dim, but then shranks, got brighter and burned to disruption at a small size.

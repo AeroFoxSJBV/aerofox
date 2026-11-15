@@ -1,0 +1,27 @@
+FLEX-126 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, September 13, 2010
+	Test Time: 	18:11:39 (GMT)
+	CIR Test Number: 	C13M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.45 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.13 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.80 
+	kavg  (mm2/s) = 	0.40 
+	Fiber: 	No
+	Dext  (mm) = 	1.84 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.17/0.38/0.45 O2/N2/CO2, 0.70 atm ambient environment.  The droplet stays within the FOV of all cameras after deployment and ignition.  The droplet burns a relatively long time and appears to diffusively extinguish.
+
+

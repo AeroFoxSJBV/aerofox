@@ -1,0 +1,27 @@
+FLEX-069 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 23, 2010
+	Test Time: 	10:23:00 (GMT)
+	CIR Test Number: 	193R002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.84 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.28 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.10 
+	kavg  (mm2/s) = 	0.94 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with no translation burning in a 0.15/0.85 O2/N2, 1.0 atm ambient environment.  There is siginficant droplet motion during the entire, very short burn.  There appears to be some visible distortions where the droplet edge intersects the fiber.  This was a small droplet with significant motion on fiber that had a large influence on the burning characteristics.
+
+

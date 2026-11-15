@@ -1,0 +1,27 @@
+FLEX-178 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, April 18, 2011
+	Test Time: 	20:52:24 (GMT)
+	CIR Test Number: 	C08M601
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.83 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.02 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	No
+	Dext  (mm) = 	1.35 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  The droplet stays in the HiBMS and LLUV FOVs for entire test.  The color camera IPSU did not record any images after deployment.  The flame diffusively extinguished with no disruption.
+
+

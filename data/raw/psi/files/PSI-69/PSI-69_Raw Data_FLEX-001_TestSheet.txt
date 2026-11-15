@@ -1,0 +1,27 @@
+FLEX-001 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, March 5, 2009
+	Test Time: 	17:22:03 (GMT)
+	CIR Test Number: 	20CAL08
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.51 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	1.69 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	No
+	Dext  (mm) = 	0.95 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a cabin air, 1.0 atm ambient environment.  This is the first FLEX test.  The droplet remains in the FOV of all of the cameras for the entire test.  The LLUV settings are not optimal and as a result the LLUV data are not reliable.  The droplet likely disrupted at the end of the test coincident with flame extinction.  The igniters were too bright and overexposed the HiBMS during ignition resulting in the inability to accurately measure the droplet diameter.
+
+

@@ -1,0 +1,27 @@
+FLEX-157 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, December 9, 2010
+	Test Time: 	19:12:27 (GMT)
+	CIR Test Number: 	C03H401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.42 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.34 
+	kavg  (mm2/s) = 	0.48 
+	Fiber: 	No
+	Dext  (mm) = 	0.45 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  This is a very small droplet that has a high NW drift velocity in HiBMS FOV.  The droplet leaves the HiBMS FOV about 1/3rd of the way through the test.  The droplet moves past the NW igniter before the igniter begins to withdraw.  The color camera IPSU-4 failed to record any frames after deployment.  There is no extinction diameter reported because the droplet is within the HiBMS FOV for such a short fraction of the entire test.
+
+

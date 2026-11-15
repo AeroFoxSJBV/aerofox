@@ -1,0 +1,27 @@
+FLEX-076 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, March 29, 2010
+	Test Time: 	19:24:36 (GMT)
+	CIR Test Number: 	203F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.89 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.21 
+	kavg  (mm2/s) = 	0.37 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.78 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a 0.14/0.86 O2/N2, 1.0 atm ambient environment.  The droplet oscillates axially on the fiber throughout the flame lifetime, only becoming quiescient after visible flame extinction.
+
+

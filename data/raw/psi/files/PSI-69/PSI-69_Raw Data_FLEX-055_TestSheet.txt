@@ -1,0 +1,26 @@
+FLEX-055 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 29, 2010
+	Test Time: 	16:06:50 (GMT)
+	CIR Test Number: 	218F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.80 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.14 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.37 
+	kavg  (mm2/s) = 	0.46 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.39 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.20/0.80 O2/N2, 0.7 atm ambient.  The droplet remains in the HiBMS FOV for the entire test.  After the start of translation, the droplet oscillates rapidly between where the flame impinges on the fiber.  The oscillation stops at approximately halfway through the test.  The periodic noise in the droplet history is caused by the oscillation.  The droplet then grows and has a small disruption leaving a small residual droplet on the fiber.  The burst or disruption is coincident with flame extinction.
+

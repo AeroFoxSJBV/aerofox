@@ -1,0 +1,26 @@
+FLEX-095 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, June 15, 2010
+	Test Time: 	03:22:41 (GMT)
+	CIR Test Number: 	C08H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.27 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.60 
+	kavg  (mm2/s) = 	0.58 
+	Fiber: 	Yes
+	Dext  (mm) = 	3.04 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation (for approximately 4 seconds) burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  There is very little axial or transverse oscillation on the fiber and the droplet stays within the HiBMS FOV for the entire test.  The visible flame extinguishes shortly after the fiber translation stops.  The droplet continues to vaporize at a relatively high rate after visible flame extinction and then there is some axial oscillation on the fiber, followed by a significant reduction in the vaporization rate.  The marked decrease in vaporization is coincident with a large vapor cloud formation with a torroidal vapor cloud in the immediate vicinity of the droplet.  This is indicative of cool flame burning and extinction following visible flame extinction.
+

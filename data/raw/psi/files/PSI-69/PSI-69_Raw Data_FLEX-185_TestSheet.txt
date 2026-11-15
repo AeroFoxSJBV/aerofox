@@ -1,0 +1,27 @@
+FLEX-185 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, August 8, 2011
+	Test Time: 	13:30:14 (GMT)
+	CIR Test Number: 	C09M502
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.16 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.42 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	No
+	Dext  (mm) = 	out of all FOVs, no means to even estimate
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.70/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts S after deployment, hits the igniter and then drifts E slowly.  It leaves the HiBMS, LLUV and Color Camera FOVs before flame extinction.
+
+

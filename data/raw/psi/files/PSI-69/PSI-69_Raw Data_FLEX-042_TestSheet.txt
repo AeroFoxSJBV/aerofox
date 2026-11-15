@@ -1,0 +1,27 @@
+FLEX-042 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 8, 2010
+	Test Time: 	01:02:04 (GMT)
+	CIR Test Number: 	223F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.73 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.92 
+	kavg  (mm2/s) = 	0.58 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.30/0.70 O2/N2, 0.70 atm ambient environment.  The droplet is relatively heavily sooting immediately after ignition.  Shortly after ignition the droplet begins to severely distort, periodically expelling small droplets of fuel that continue to burn.  There is a large disruption that completely dislodges the droplet from the fiber.  This droplet drifts N in the HiBMS FOV, then S (after another disruption) and then burns relatively cleanly to disruption at a small size.  The burning rate constant is that during the relatively clean period after the droplet gets dislodged from the fiber.  The color camera IPSU did not record any images after deployment.
+
+

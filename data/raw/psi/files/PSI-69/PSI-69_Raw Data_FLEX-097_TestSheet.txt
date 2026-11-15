@@ -1,0 +1,27 @@
+FLEX-097 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, June 16, 2010
+	Test Time: 	22:43:35 (GMT)
+	CIR Test Number: 	C08M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.79 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	4.25 
+	kavg  (mm2/s) = 	0.45 
+	Fiber: 	No
+	Dext  (mm) = 	2.60 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts N with a relatively high velocity in the HiBMS FOV after deployment and ignition, and out of the FOV shortly after ignition.  It appears that the droplet drifts close enough to the needle to start a needle fire that changes the droplet direction from N to E in the color camera FOV.  The droplet quickly leaves the color camera FOV while still burning.  The droplet remains in the LLUV FOV drifting S after deployment and ignition.  The needle fire is visible on the LLUV as well and it pushes the droplet N and out of the LLUV FOV before extinction or disruption.
+
+

@@ -1,0 +1,25 @@
+FLEX-083 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, April 19, 2010
+	Test Time: 	21:18:05 (GMT)
+	CIR Test Number: 	304F002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.02 
+	O2 Mole Fraction = 	 0.12 
+	N2 Mole Fraction = 	 0.87 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.34 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.12/0.88 O2/N2, 1.0 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  The droplet does not drift after deployment and ignition and stays in the FOVs of both the LLUV and color cameras.  The flame is very dim and almost undetectable by the LLUV (especially later in the flame lifetime).  As a result, the LLUV flame size measurements for the last half of the test are not accurate (the flame essentially undetectable by the LLUV).

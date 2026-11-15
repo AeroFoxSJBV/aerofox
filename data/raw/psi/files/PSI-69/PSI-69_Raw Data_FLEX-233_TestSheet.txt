@@ -1,0 +1,27 @@
+FLEX-233 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 22, 2011
+	Test Time: 	00:44:55 (GMT)
+	CIR Test Number: 	H03M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.15 
+	Temperature (K) = 	 298.88 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.95 
+	kavg  (mm2/s) = 	0.53 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.67 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a 0.18/0.67/0.15 O2/N2/He, 1.0 atm ambient environment.  The droplet moves slowly and smoothly W on the fiber in the HiBMS FOV after ignition.  The droplet drifts to the edge of the HiBMS FOV, but remains in the FOV.  There is some small oscillatory motion on the fiber, but it is a relatively clean burn until diffusive extinction.
+
+

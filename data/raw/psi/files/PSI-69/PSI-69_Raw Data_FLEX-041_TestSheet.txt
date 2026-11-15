@@ -1,0 +1,28 @@
+FLEX-041 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 8, 2010
+	Test Time: 	04:41:55 (GMT)
+	CIR Test Number: 	219F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.47 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.35 
+	kavg  (mm2/s) = 	0.65 
+	Fiber: 	No
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.30/0.70 O2/N2, 0.7 atm ambient environment.  The droplet exhibits significant axial oscillations during and after the start and stop of fiber translation.  The droplet drifts in and partially out of the HiBMS FOV.  At the end of the test, the droplet swells, disrupts and becomes dislodged from the fiber.  The disruption is coincident with flame extinction (the dislodged droplet does burn as it drifts away).  The color camera IPSU did not record any images after deployment.
+
+
+

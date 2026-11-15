@@ -1,0 +1,27 @@
+FLEX-245 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, October 1, 2011
+	Test Time: 	00:34:58 (GMT)
+	CIR Test Number: 	H04M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.99 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.63 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.20 
+	Temperature (K) = 	 297.06 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.99 
+	kavg  (mm2/s) = 	0.49 
+	Fiber: 	No
+	Dext  (mm) ~ 	2.17 
+
+COMMENTS:
+
+Free-floating methanol droplet in a 0.17/0.63/0.20 O2/N2/He, 1.0 atm ambient environment.  The droplet has a strong N to NE drift after deployment, nearly hitting the ingiter before it withdrew.  The droplet has a relatively high drift velocity after ignition and only stays in the HiBMS FOV for a short fraction (1/4th) of the burn.  There is no extinction diameter listed because of the short time the droplet is within the FOV.  The droplet burns to diffusive extinction.
+
+

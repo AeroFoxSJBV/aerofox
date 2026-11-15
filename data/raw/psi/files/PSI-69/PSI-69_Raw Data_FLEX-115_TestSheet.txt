@@ -1,0 +1,26 @@
+FLEX-115 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, September 1, 2010
+	Test Time: 	20:40:16 (GMT)
+	CIR Test Number: 	C11M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.35 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.44 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.97 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.61 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.20/0.45/0.35 O2/N2/CO2, 0.70 atm ambient environment.  There is a small residue on the fiber to the W of the droplet that ignites a few sec after droplet ignition.  This residue burns for 1 - 2 sec with a very bright luminous flame (during translation).  The droplet drifts partially out of the HiBMS FOV after the translation stops, then shrinks back to be completely in the FOV.  There appears to be some oscillations near extinction.  The droplet burns without transverse or axial oscillations along the fiber.  There is no disruption or droplet deformation.
+

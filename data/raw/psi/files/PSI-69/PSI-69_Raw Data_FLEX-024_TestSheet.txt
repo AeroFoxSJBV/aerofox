@@ -1,0 +1,25 @@
+FLEX-024 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, October 24, 2009
+	Test Time: 	19:44:04 (GMT)
+	CIR Test Number: 	196F003
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.98 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.34/0.66 O2/N2, 0.70 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  There appeared to be a possible needle fire.  The color camera and LLUV IPSUs stopped recording before the test was complete.  The LLUV images were recorded at 8-bit depth and no 12-bit which resulted in more uncertainty in the LLUV flame size measurements.

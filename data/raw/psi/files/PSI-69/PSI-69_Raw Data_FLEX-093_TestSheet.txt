@@ -1,0 +1,27 @@
+FLEX-093 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, June 15, 2010
+	Test Time: 	00:32:31 (GMT)
+	CIR Test Number: 	149F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.25 
+	N2 Mole Fraction = 	 0.60 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.13 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.48 
+	kavg  (mm2/s) = 	0.71 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  There is a lot of transverse and axial oscillatory motion during the entire droplet burn.  The droplet does not leave the HiBMS FOV during the test, but the burning rate is high which is likely the result of the significant and high frequency oscillations.
+
+

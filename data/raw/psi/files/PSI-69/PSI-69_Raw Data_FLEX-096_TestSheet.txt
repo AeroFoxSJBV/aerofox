@@ -1,0 +1,25 @@
+FLEX-096 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, June 15, 2010
+	Test Time: 	04:37:39 (GMT)
+	CIR Test Number: 	C08H301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.41 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  There were significant oscillations on fiber, so severe that the droplet became dislodged from the fiber and drifted S and out of the color camera FOV.  It also drifted out of the LLUV FOV.

@@ -1,0 +1,26 @@
+FLEX-090 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, May 6, 2010
+	Test Time: 	00:07:51 (GMT)
+	CIR Test Number: 	141R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.25 
+	N2 Mole Fraction = 	 0.60 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.43 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.62 
+	kavg  (mm2/s) = 	0.53 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with no translation in a 0.25/0.60/0.15 O2/N2/CO2, 0.70 atm ambient environment.  There is significant axial and transverse oscillations on the fiber after ignition.  While the droplet is oscillating on the fiber, there are 'sparklers' evident on the color camera view.  The oscillations diminish and the droplet burns cleanly (on the color camera view as well). A few seconds before there is a disruption (without dislocation) and then a complete disruption/dislocation/flame extinction.
+

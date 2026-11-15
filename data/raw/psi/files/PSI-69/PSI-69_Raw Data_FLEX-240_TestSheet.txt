@@ -1,0 +1,28 @@
+FLEX-240 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 27, 2011
+	Test Time: 	13:25:07 (GMT)
+	CIR Test Number: 	H03H202
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.15 
+	Temperature (K) = 	 298.48 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.27 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.67/0.15 O2/N2/He, 1.0 atm ambient environment.  The droplet drifts N after deployment and ignition and out of HiBMS FOV about 1/4th of the way through the burn.  The drift velocity is relatively high and the flame is brighter on the leading edge in the direction of the drift.  The droplet does stay in the FOV of both the LLUV and Color cameras.  There is no extinction diameter for this test because it was in the HiBMS FOV for such a small fraction of the burn.  The color camera IPSU did not record any images after deployment for this test.
+
+
+

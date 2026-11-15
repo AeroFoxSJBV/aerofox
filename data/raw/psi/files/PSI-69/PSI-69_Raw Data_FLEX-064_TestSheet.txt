@@ -1,0 +1,27 @@
+FLEX-064 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, March 11, 2010
+	Test Time: 	22:12:39 (GMT)
+	CIR Test Number: 	302F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.81 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 297.29 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.69 
+	kavg  (mm2/s) = 	0.60 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.07 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation (for approximately 4 sec) burning in a 0.18/0.82 O2/N2, 1.0 atm ambient environment.  The flame has moderate transverse oscillations and remains within the HiBMS FOV for the entire test.  The flame grows and becomes dim blue.  During translation, the leading edge of the flame is bright and the fiber glows brightly.  The trailing edge of the flame is much dimmer and the fiber does not glow.  After translation stops, the flame extinguishes.  There is significant droplet vaporization after visible flame extinction.  There is a small disruption very late in the droplet lifetime that leaves a small residual droplet on the fiber.  The behavior after visible flame extinction is indicative of cool flame burning and extinction.
+
+

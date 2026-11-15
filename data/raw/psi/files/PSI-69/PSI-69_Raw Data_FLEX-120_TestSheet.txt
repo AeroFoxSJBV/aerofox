@@ -1,0 +1,27 @@
+FLEX-120 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 7, 2010
+	Test Time: 	01:08:26 (GMT)
+	CIR Test Number: 	C12H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.00 
+	N2 Mole Fraction = 	 0.00 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.39 
+
+TEST CONDITIONS 
+	Fuel: 	 
+	D0  (mm) = 	2.45 
+	kavg  (mm2/s) = 	0.38 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.39 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with fiber translation burning in a 0.18/0.42/0.40 O2/N2/CO2, 0.70 atm ambient environment.  The droplet does not oscillate much on the fiber during or after the burn.  There is s small vapor cloud formed after visible flame extinction.  It is difficult to determine whether there was cool flame burning and extinction from the available data.  The LLUV IPSU did not record any images during the burn.
+
+

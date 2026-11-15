@@ -1,0 +1,30 @@
+FLEX-255 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 12, 2011
+	Test Time: 	20:16:43 (GMT)
+	CIR Test Number: 	H10H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.20 
+	Temperature (K) = 	 298.01 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.78 
+	kavg  (mm2/s) = 	0.72 
+	Fiber: 	No
+	Dext  (mm) = 	2.52 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/He, 0.70 atm ambient envrionment.  The droplet drifts out of HiBMS FOV (but remains in the FOV of the LLUV and Color Camera) close to extinction.  There is a small vapor cloud formed at extinction.  There is noise in the analysis of the droplet image because of soot particles formed during combustion that interfere with the analysis.  It is unclear whether this is radiative or diffusive extinction or if there was a cool flame after visible flame extinction.
+
+
+
+
+

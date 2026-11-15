@@ -1,0 +1,29 @@
+FLEX-273 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, November 30, 2011
+	Test Time: 	08:39:18 (GMT)
+	CIR Test Number: 	H14H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.69 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.40 
+	Temperature (K) = 	 297.06 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.27 
+	kavg  (mm2/s) = 	0.71 
+	Fiber: 	No
+	Dext  (mm) = 	1.64 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.42/0.40 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts NE in the HiBMS FOV after deployment and ignition, but remains in the FOV of all cameras for the entire test.  The droplet burns for several seconds, the flame grows, reaches a maximum size and remains nearly constant for the entire test.  The luminosity of the flame continuously decreases as the droplet burns.  This is likely near the flammability limit.  There is no evidence of cool flame formation (no rapid vaporization or vapor cloud formation).
+
+
+
+

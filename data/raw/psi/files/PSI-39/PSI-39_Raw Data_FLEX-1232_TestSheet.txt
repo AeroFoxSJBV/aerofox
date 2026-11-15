@@ -1,0 +1,27 @@
+FLEX-1232 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, April 6, 2017
+	Test Time: 	01:54:32 (GMT)
+	CIR Test Number: 	F095A09
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 2.97 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.83 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 301.00 
+
+TEST CONDITIONS 
+	Fuel: 	Dodecane 
+	D0  (mm) = 	4.34 
+	kavg  (mm2/s) = 	0.32 
+	Fiber: 	Yes
+	Dext  (mm) = 	4.30 
+
+COMMENTS:
+
+Fiber-supported.  Radiative extinction, cool flame burning and re-ignition
+
+

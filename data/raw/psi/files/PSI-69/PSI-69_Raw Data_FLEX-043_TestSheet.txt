@@ -1,0 +1,28 @@
+FLEX-043 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 8, 2010
+	Test Time: 	03:16:16 (GMT)
+	CIR Test Number: 	223F002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.31 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.97 
+	kavg  (mm2/s) = 	0.78 
+	Fiber: 	No
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.30/0.70 O2/N2, 0.7 atm ambient environment.  There is significant sooting.  The droplet remains in the HiBMS FOV the entire test until the droplet disrupts and dislodges from the fiber.  There is significant oscillatory axial motion on the fiber during the entire test.
+
+
+

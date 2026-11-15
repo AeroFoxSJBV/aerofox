@@ -1,0 +1,27 @@
+FLEX-131 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	11:28:52 (GMT)
+	CIR Test Number: 	C21H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.47 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.72 
+	kavg  (mm2/s) = 	0.61 
+	Fiber: 	No
+	Dext  (mm) = 	0.52 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  This is a smaller droplet that stays in the FOVs of all the cameras for the entire test.  The droplet burns to disruptive extinction at a small size.
+
+

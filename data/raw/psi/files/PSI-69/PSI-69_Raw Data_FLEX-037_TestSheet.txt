@@ -1,0 +1,27 @@
+FLEX-037 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, January 7, 2010
+	Test Time: 	19:08:46 (GMT)
+	CIR Test Number: 	220R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.77 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.31 
+	kavg  (mm2/s) = 	0.72 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with ~ 3 mm/sec translation burning in a 0.34/0.66 O2/N2, 0.7 atm ambient environment.  The droplet remains within the HiBMS FOV for the entire test.  After ignition and the start of translation, there is significnat transverse motion.  There is a lot of scatter in the droplet history because of the droplet motion on the fiber.  The flame view shows a bright flame with A LOT of sparklers throughout the burn.  The transverse droplet motion becomes more severe towards the end of the test, with the droplet deforming.  Flame extinction is coincident with a complete droplet disruption that tears the droplet off the fiber and extinguishes the flame.
+
+

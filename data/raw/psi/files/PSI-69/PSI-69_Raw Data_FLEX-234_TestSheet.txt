@@ -1,0 +1,33 @@
+FLEX-234 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 23, 2011
+	Test Time: 	23:18:09 (GMT)
+	CIR Test Number: 	N01H401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.99 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.32 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.21/0.79 O2/N2, 1.0 atm or nominally air ambient environment.  The droplet drifts SE and out of the HiBMS FOV about 1/2 of the way through the burn.  The flame begins to oscillate and then drifts S and out of the LLUV FOV before extinction.  The Color camera IPSU did not record any images during the burn.  It is unclear whether the droplet continued to burn in the LLUV FOV and for how long.  The oscillations are significant, but the flame appears to be decreasing in size .  From the radiometer, it appears that the droplet burns with a stable flame after the flame oscillations stop.
+
+
+
+
+
+
+
+

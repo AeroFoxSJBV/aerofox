@@ -1,0 +1,30 @@
+FLEX-274 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, November 30, 2011
+	Test Time: 	09:49:07 (GMT)
+	CIR Test Number: 	H14H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.40 
+	Temperature (K) = 	 298.35 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.86 
+	kavg  (mm2/s) = 	0.77 
+	Fiber: 	No
+	Dext  (mm) = 	0.84 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.42/0.40 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts NE after deployment and ignition, but remains in HiBMS FOV for duration of the burn and several seconds after flame extinction (long enough to observe the vaporization history).  The flame grows slightly reaches a maximum size 1/3rd of the way through the burn and then decreases in size in response to the shrinking droplet.  This is likely diffusive extinction, but very close to the flammability limit.  There is no evidence of a cool flame (rapid vaporization after visible flame extinction and no vapor cloud formation).
+
+
+
+
+

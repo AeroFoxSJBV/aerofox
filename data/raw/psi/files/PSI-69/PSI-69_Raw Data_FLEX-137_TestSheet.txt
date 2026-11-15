@@ -1,0 +1,26 @@
+FLEX-137 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	17:53:35 (GMT)
+	CIR Test Number: 	C21H303
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.80 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.13 
+	kavg  (mm2/s) = 	0.55 
+	Fiber: 	No
+	Dext  (mm) = 	0.71 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts NW and out of the HiBMS FOV about half way through the test.  After deployment, there is a disruption (maybe a bubble burst since these droplets had issues with gas bubbles) that causes significant droplet deformation and oscillations.  There is a moderate degree of sooting.  The droplet burns to a relatively small size before disruptive extinction.  The noise in the beginning of the droplet history is due to soot influencing the droplet size measurement.  The color camera IPSU failed to record any images after deployment.  The LLUV IPSU stopped recording images for a brief time in the middle of the burn. 
+

@@ -1,0 +1,26 @@
+FLEX-118 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, September 6, 2010
+	Test Time: 	19:14:22 (GMT)
+	CIR Test Number: 	C11H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.35 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.50 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.03 
+	kavg  (mm2/s) = 	0.38 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.91 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.20/0.45/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet ignites and shortly after ignition a small droplet or debris ignites to the W (color camera) or N (LLUV) of the droplet.  This small droplet/particle burns for only a short time.  It is not visible in the HiBMS.  The droplet burns for only a short time before radiatively extinguishing.  There is continued rapid vaporization after visible flame exinction, followed by avapor cloud formation approximately 5 seconds after visible flame extinction.  This is an indication of cool flame burning and extinction following visible flame extinction.
+

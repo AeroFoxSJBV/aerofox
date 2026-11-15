@@ -1,0 +1,27 @@
+FLEX-014 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, June 29, 2009
+	Test Time: 	12:26:06 (GMT)
+	CIR Test Number: 	256F007
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 2.70 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.09 
+	CO2 Mole Fraction = 	 0.70 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 297.83 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.70 
+	kavg  (mm2/s) = 	0.30 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.21/0.09/0.70 O2/N2/CO2, 3.0 atm ambient environment.  The droplet has a large drift NW in the HiBMS after deployment and ignition (ignition doesn't visually change the motion).  The droplet quickly drifts out of the FOV of the HiBMS.  The color camera IPSU did not record any images for this test.  The droplet also drifts N out of the LLUV FOV before extinction.  There is no burning rate or extinction droplet diameter listed because of the limited time the droplet is within the HiBMS FOV.
+
+

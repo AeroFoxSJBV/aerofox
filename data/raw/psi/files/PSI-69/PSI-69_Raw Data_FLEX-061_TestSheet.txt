@@ -1,0 +1,27 @@
+FLEX-061 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, February 4, 2010
+	Test Time: 	03:52:39 (GMT)
+	CIR Test Number: 	204R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.02 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.82 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.80 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.68 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.00 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with no translation burning in a 0.18/0.82 O2/N2, 1.0 atm ambient.  The droplet remains stationary on the fiber and within the HiBMS FOV for the entire test.  The flame is very dim in both the LLUV and color camera views.
+
+

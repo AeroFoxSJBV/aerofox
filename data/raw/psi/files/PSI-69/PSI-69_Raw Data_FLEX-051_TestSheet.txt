@@ -1,0 +1,26 @@
+FLEX-051 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 19, 2010
+	Test Time: 	16:38:35 (GMT)
+	CIR Test Number: 	209F005
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.75 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.41 
+	kavg  (mm2/s) = 	0.65 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a nominally air (0.21/0.79 O2/N2), 1.0 atm ambient environment.  The droplet remains in the HiBMS FOV the entire test and burns to completion.  There is a very luminous flame initially and that abruptly disappears half way through the burn.  There are significant transverse oscillations of the droplet on the fiber although it never becomes dislodged from the fiber.
+

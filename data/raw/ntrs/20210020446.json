@@ -1,0 +1,76 @@
+{
+ "id": 20210020446,
+ "title": "Impact of Lunar Gravity on Material Flammability ",
+ "abstract": null,
+ "stiType": "PRESENTATION",
+ "distributionDate": "2021-08-18T04:00:00.0000000+00:00",
+ "publications": null,
+ "authorAffiliations": [
+  {
+   "organizationId": "fdea3daf3b5156699f511edf3e9b9ec4",
+   "sequence": 0,
+   "submissionId": 20210020446,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Gary A. Ruff"
+    },
+    "organization": {
+     "name": "Glenn Research Center",
+     "location": "Cleveland, Ohio, United States"
+    }
+   },
+   "id": "ad17e1229aca49a7ab2d89ca85dbf5c9",
+   "userType": "CIVIL",
+   "userId": "f5daba98616b4f9faeb0dc31767c1f15"
+  }
+ ],
+ "center": {
+  "code": "GRC",
+  "name": "Glenn Research Center",
+  "id": "19eeb25fa404421d9eaa5f876e853e3c"
+ },
+ "subjectCategories": [
+  "Lunar And Planetary Science And Exploration",
+  "Fluid Mechanics And Thermodynamics"
+ ],
+ "keywords": [
+  "Spacecraft fire safety",
+  "Material flammability",
+  "Partial gravity flammability"
+ ],
+ "copyright": {
+  "thirdPartyPermissionsProduced": true,
+  "disclosedToPublic": false,
+  "thirdPartyLocationComments": "Blue Origin",
+  "containsIndication": false,
+  "publisherPermissionOrRightsToDistribute": false,
+  "belongsToUsGov": false,
+  "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+  "thirdPartyContentCondition": "NOT_SET",
+  "belongsToContractor": false,
+  "disclosedInvention": false,
+  "licenseType": "NO",
+  "submissionId": 20210020446,
+  "containsThirdPartyMaterial": true,
+  "belongsToPublisher": false,
+  "id": "e2ac5c34085d474c96eae151c0dc8dcb",
+  "belongsToAuthors": false
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "LSSW Presentation_8-12-2021_FINAL.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20210020446/downloads/LSSW%20Presentation_8-12-2021_FINAL.pdf",
+    "pdf": "/api/citations/20210020446/downloads/LSSW%20Presentation_8-12-2021_FINAL.pdf",
+    "fulltext": "/api/citations/20210020446/downloads/LSSW%20Presentation_8-12-2021_FINAL.pdf.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": null,
+ "aerofox_reason": "Impact of lunar gravity on material flammability",
+ "url": "https://ntrs.nasa.gov/citations/20210020446"
+}

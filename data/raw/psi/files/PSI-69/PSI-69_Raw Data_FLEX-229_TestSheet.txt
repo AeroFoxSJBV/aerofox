@@ -1,0 +1,27 @@
+FLEX-229 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 13, 2011
+	Test Time: 	11:55:40 (GMT)
+	CIR Test Number: 	H01H102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.99 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.05 
+	Temperature (K) = 	 298.27 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.25 
+	kavg  (mm2/s) = 	0.57 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.75.0.05 O2/N2/He, 1.0 atm ambient environment.  The droplet drifts SE after deployment in the HiBMS FOV, hits the igniter and develops a large drift velocity E.  The droplet drifts out of the HiBMS FOV and then the LLUV and color cameras before either extinction or burn-out.
+
+

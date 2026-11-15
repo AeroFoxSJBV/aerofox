@@ -1,0 +1,26 @@
+FLEX-038 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, January 7, 2010
+	Test Time: 	19:20:38 (GMT)
+	CIR Test Number: 	220R002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.53 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol
+	D0  (mm) = 	3.59 
+	kavg  (mm2/s) = 	0.71 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.88 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with translation burning in a 0.34/0.66 O2/N2, 0.7 atm ambient.  The droplet burn is very smooth with little motion of the droplet relative to the fiber for most of the test.  About 80% of the way through the burn the droplet begins transverse vibrations on the fiber.  The vibrations grow in magnitude until the droplet disrupts and disintegrates, extinguishing the flame and leaving no fuel droplet on the fiber.  The LLUV IPSU stopped recording for about 1/2 of the test (in the middle).
+

@@ -1,0 +1,31 @@
+FLEX-210 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, August 29, 2011
+	Test Time: 	22:19:47 (GMT)
+	CIR Test Number: 	N01H301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.29 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.92 
+	kavg  (mm2/s) = 	0.69 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.67 
+
+COMMENTS:
+
+Fiber-supported heptane droplet in a nominally air, 0.21/0.79 O2/N2, 1.0 atm ambient environment.  There is some drift E on the fiber after ignition and early in the droplet lifetime.  The soot agglomerates that are near the droplet create a lot of noise in the droplet measurement for the first half of the burn.  There is a lot of motion of the droplet on the fiber late in the droplet lifetime as well.  There is evidence of some unusual soot dynamics with large soot particles moving slowly towards the droplet and then more rapidly pushed away (presumably by the Stefan flow).  The droplet burns to completion.
+
+
+
+
+
+

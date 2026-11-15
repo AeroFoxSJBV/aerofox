@@ -1,0 +1,26 @@
+FLEX-057 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 29, 2010
+	Test Time: 	19:50:16 (GMT)
+	CIR Test Number: 	303F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.72 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 301.07 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.10 
+	kavg  (mm2/s) = 	0.54 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.20/0.80 O2/N2, 0.70 atm ambient environment.  There is moderate transverse and axial oscillations on the fiber after deployment and during the entire visible flame and after visible flame extinction.  The flame extinguishes after the translation stops, with the trailing edge of the flame visibly weaker and extinguishing first.  There are unusual, recirculating flow patterns in the HiBMS fuel from soot that moves toward the droplet, accelerates circuferentially a short arc and then goes radially towards the flame and back again.  There is a small vapor cloud formed in the color camera view approximately 20 sec after visible flame extinction.  It is not clear if cool flame burning and extinction was present in this test.
+

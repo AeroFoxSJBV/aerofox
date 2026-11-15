@@ -1,0 +1,27 @@
+FLEX-221 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 8, 2011
+	Test Time: 	19:00:48 (GMT)
+	CIR Test Number: 	N05M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.87 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.41 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.46 
+	kavg  (mm2/s) = 	0.36 
+	Fiber: 	No
+	Dext  (mm) = 	2.96 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.13/0.87 O2/N2, 1.0 atm ambient environment.  The droplet drifts E then S and out of the SE corner of the HiBMS FOV just after visible flame extinction.  The flame oscillates for several seconds before radiative extinction.  The flame is very difficult to discern in the LLUV view.  The flame luminosity barely registers on the LLUV.  The color camera IPSU did not record any images for this test.
+
+

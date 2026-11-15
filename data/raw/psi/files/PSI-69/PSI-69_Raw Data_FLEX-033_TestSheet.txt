@@ -1,0 +1,27 @@
+FLEX-033 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, November 27, 2009
+	Test Time: 	10:02:15 (GMT)
+	CIR Test Number: 	177R002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.14 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.62 
+	kavg  (mm2/s) = 	0.48 
+	Fiber: 	No
+	Dext  (mm) = 	1.25 
+
+COMMENTS:
+
+Freely-floating methanol droplet burning in a 0.21/0.79 O2/N2, 1.0 atm ambient environment.  The droplet drifts slighly N and then E in the HiBMS FOV.  It evenutally leaves the HiBMS FOV, but well after extinction.  The color camera IPSU did not record any images after deployment for this test.
+
+

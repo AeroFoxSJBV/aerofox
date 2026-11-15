@@ -1,0 +1,26 @@
+FLEX-047 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 12, 2010
+	Test Time: 	15:48:17 (GMT)
+	CIR Test Number: 	209F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.40 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.36 
+	kavg  (mm2/s) = 	0.50 
+	Fiber: 	No
+	Dext  (mm) = 	1.75 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a nominally air (0.21/0.79 O2/N2), 1.0 atm ambient environment.  The droplet drifts E out of the HiBMS FOV about 1/2 the way through the test.  The flame oscillates for several seconds before leaving the FOV of all the cameras.  It leaves the LLUV FOV last, and is oscillating as it translates S out of the FOV.  The radiometer shows flame persists even after leaving the FOV.  Extrapolating the burning history to when the radiometer indicates extinction (with large error bars) shows that the droplet burns nearly to extinction.  There is no evidence of disruptive burning in any of the camera views.  The color camera did not zoom out so it did not capture the flame history correctly.
+

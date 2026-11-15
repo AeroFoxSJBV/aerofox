@@ -1,0 +1,27 @@
+FLEX-196 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, August 17, 2011
+	Test Time: 	22:53:58 (GMT)
+	CIR Test Number: 	C04H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.99 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.63 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.74 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.90 
+	kavg  (mm2/s) = 	0.36 
+	Fiber: 	No
+	Dext  (mm) = 	2.79 
+
+COMMENTS:
+
+Free-floating heptane droplet in a 0.20/0.75/0.05 O2/N2/CO2, 1.0 atm ambient environment.  The droplet stays in HiBMS FOV with very little residual motion for the entire test.  The flame radiative extinguishes quickly, followed by rapid vaporization and then by a large vapor cloud formation.  This means that cool flame burning and extinction following visible flame extinction was likely.  The HiBMS FOV view dims when cloud forms and this is likely the cause of the dropelt getting slightly larger at the end of the test (the changing background combined with the fixed segmentation value caused more pixels to be counted as 'droplet').
+
+

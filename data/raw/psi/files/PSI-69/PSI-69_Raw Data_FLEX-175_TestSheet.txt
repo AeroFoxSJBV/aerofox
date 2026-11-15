@@ -1,0 +1,27 @@
+FLEX-175 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, February 21, 2011
+	Test Time: 	22:15:54 (GMT)
+	CIR Test Number: 	C08H502
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.56 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.50 
+	kavg  (mm2/s) = 	0.56 
+	Fiber: 	No
+	Dext  (mm) = 	0.21 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts E, but stays in HiBMS FOV for the entire test.  The droplet burns linearly to small size and there is disruption coincident with flame extinction.  The extinction droplet size is just an extrapolation of the average burning rate to the time of extinction.
+
+

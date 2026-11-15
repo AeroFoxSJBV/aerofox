@@ -1,0 +1,27 @@
+FLEX-019 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, August 26, 2009
+	Test Time: 	19:07:28 (GMT)
+	CIR Test Number: 	196F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 301.01 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.39 
+	kavg  (mm2/s) = 	0.90 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.34/0.66 O2/N2, 0.70 atm ambient environment.  The droplet is almost motionless after deployment, but then a large impulse when the igniters start to heat moves droplet SW and quickly out of HiBMS FOV.  The droplet is nearly out of the FOV when the igniters begin to move away from the droplet.  There is significant sooting with large aggregates.  The data from this test are probably not reliable.
+
+

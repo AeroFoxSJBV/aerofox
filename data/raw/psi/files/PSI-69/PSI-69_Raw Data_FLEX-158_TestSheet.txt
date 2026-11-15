@@ -1,0 +1,27 @@
+FLEX-158 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, December 14, 2010
+	Test Time: 	13:41:00 (GMT)
+	CIR Test Number: 	C05M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.34 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	4.24 
+	kavg  (mm2/s) = 	0.30 
+	Fiber: 	No
+	Dext  (mm) = 	3.96 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  This relatively large droplet is nearly motionless after deployment and ignition and stays in the FOV of all the cameras.  The flame oscillates for a few cycles (increasing in magnitude with time) until radiative extinction.  The flame is difficult to see with the LLUV because of both the dim flame and the contamination on the LLUV viewing window.
+
+

@@ -1,0 +1,27 @@
+FLEX-160 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, December 14, 2010
+	Test Time: 	15:17:59 (GMT)
+	CIR Test Number: 	C05M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.16 
+	N2 Mole Fraction = 	 0.59 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.50 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.71 
+	kavg  (mm2/s) = 	0.38 
+	Fiber: 	No
+	Dext  (mm) = 	1.34 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.19/0.59/0.25 O2/N2/CO2, 1.0 atm ambient environment.  The droplet stays with the FOV of all the cameras for the entire burn.  The flame diffusively extinguishes.  The LLUV images are dim, but the flame size data seems reasonable, but it is a bit noisy.  This is the result of both the dim LLUV images and the contamination of the CIR LLUV viewing window.
+
+

@@ -1,0 +1,27 @@
+FLEX-039 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, January 7, 2010
+	Test Time: 	21:51:19 (GMT)
+	CIR Test Number: 	224F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.34 
+	N2 Mole Fraction = 	 0.66 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.94 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.91 
+	kavg  (mm2/s) = 	0.80 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.34/0.66 O2/N2, 0.70 atm ambient environment.  There is significant transverse and axial oscillations on the fiber during the entire burn although the droplet remains within the HiBMS FOV for the entire test.  There is significant sooting with large aggregates throughout the entire test.  The sooting is high enough that the threshold intensity for droplet discrimination had to be reduced to get reasonable droplet size measurements.  The flame is bright yellow and very luminous the entire test.  There is a disruption that dislocates the droplet from fiber that is coincident with flame extinction.
+
+

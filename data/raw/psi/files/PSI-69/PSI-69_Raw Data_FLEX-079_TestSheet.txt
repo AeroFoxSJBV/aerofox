@@ -1,0 +1,27 @@
+FLEX-079 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 30, 2010
+	Test Time: 	00:40:16 (GMT)
+	CIR Test Number: 	179F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.51 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.92 
+	kavg  (mm2/s) = 	0.25 
+	Fiber: 	No
+	Dext  (mm) = 	2.86 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.13/0.85 O2/N2, 1.0 atm ambient environment.  Very short burn that is entirely transient.  This ambient is likely below the quasi-steady flammability limit.  There is a small vapor cloud that forms shortly after visible flame extinction.  This may be indicative of cool flame burning and extinction following hot flame extinction.
+
+

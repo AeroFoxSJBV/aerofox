@@ -1,0 +1,27 @@
+FLEX-030 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, November 13, 2009
+	Test Time: 	14:03:46 (GMT)
+	CIR Test Number: 	178F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.70 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.26 
+	kavg  (mm2/s) = 	0.59 
+	Fiber: 	No
+	Dext  (mm) = 	1.32 
+
+COMMENTS:
+
+Freely-floating methanol droplet burning in a 0.30/0.70 O2/N2, 1.0 atm ambient environment.  The droplet remains in the FOV of all the cameras for the entire test.  The droplet drifts S, then E, then N in the HiBMS FOV.  Coincident with flame extinction, the droplet becomes almost 'football'-shaped.  The oblong shape with a pointed end remains stationary and fixed for several seconds (until recording ended).  The Dext is the actual extinction diameter, but may be influenced by the shape change.
+
+

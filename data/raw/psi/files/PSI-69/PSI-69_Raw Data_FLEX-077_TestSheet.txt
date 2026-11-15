@@ -1,0 +1,27 @@
+FLEX-077 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, March 29, 2010
+	Test Time: 	18:39:20 (GMT)
+	CIR Test Number: 	175R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.83 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.33 
+	kavg  (mm2/s) = 	0.34 
+	Fiber: 	No
+	Dext  (mm) = 	2.91 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.14/0.85 O2/N2, 1.0 atm ambient environment.  There was very little droplet motion after deployment and ignition (it only moved a few mm during the entire test).
+
+

@@ -1,0 +1,30 @@
+FLEX-214 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, August 30, 2011
+	Test Time: 	00:58:06 (GMT)
+	CIR Test Number: 	N02H203
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.16 
+	N2 Mole Fraction = 	 0.84 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.67 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.52 
+	kavg  (mm2/s) = 	0.42 
+	Fiber: 	No
+	Dext  (mm) = 	2.13 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.16/0.84 O2/N2, 1.0 atm ambient environment.  The droplet stays in FOV of all cameras for the entire IPSU recording time.  The flame grows and exhibits radiative extinction shortly after ignition.  There is then a period of rapid post-extinction vaporization followed by a plateau in the droplet history coincident with the appearance of a vapor cloud.  Both are indicative of cool flame burning and extinction following visible flame extinction.
+
+
+
+
+

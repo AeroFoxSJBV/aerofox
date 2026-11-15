@@ -1,0 +1,27 @@
+FLEX-222 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 8, 2011
+	Test Time: 	20:24:20 (GMT)
+	CIR Test Number: 	N05M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.87 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.70 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.75 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	No
+	Dext  (mm) = 	1.46 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.13/0.87 O2/N2, 1.0 atm ambient environment.  Droplet stays in HiBMS FOV for most of the test.  For a short period of time, right around visible flame extinction, the droplet drifts partially out of the FOV.  It drifts back into the HiBMS FOV for the remainder of the HiBMS IPSU-1 recording time.  The flame is very dim, barely obove the background level in both the LLUV and color Cameras.  The extinction droplet diameter results from interpolating the droplet history from when the droplet leaves the HiBMS FOV to when it re-enters a short time after visible flame extinction.  The interpolation polynomial is a fourth order polynomial with the constraint that the values and burning rate constants at both ends match the experimental values.
+
+

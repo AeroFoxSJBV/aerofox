@@ -1,0 +1,27 @@
+FLEX-114 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, September 6, 2010
+	Test Time: 	19:14:22 (GMT)
+	CIR Test Number: 	C11M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.35 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 0.00 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.23 
+	kavg  (mm2/s) = 	0.42 
+	Fiber: 	No
+	Dext  (mm) = 	1.68 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.20/0.45/0.35 O2/N2/CO2, 0.70 atm ambient environment.  After ignition the droplet drifts NE and out of the HiBMS FOV.  The droplet remains out of the FOV until near the end of the test when it drifts back in from the NE corner.  The droplet drifts back in the FOV just before flame extinction.
+
+

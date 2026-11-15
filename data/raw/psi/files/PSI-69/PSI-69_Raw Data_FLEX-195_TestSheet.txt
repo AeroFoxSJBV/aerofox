@@ -1,0 +1,27 @@
+FLEX-195 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, August 17, 2011
+	Test Time: 	22:31:20 (GMT)
+	CIR Test Number: 	C04H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.99 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.63 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.49 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.76 
+	kavg  (mm2/s) = 	0.29 
+	Fiber: 	No
+	Dext  (mm) = 	3.71 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.17/0.63/0.20 O2/N2/CO2, 1.0 atm ambient environment.  There is almost no drift in the HiBMS FOVand the droplet remains in the FOVs of all cameras for the entire recording time.  The flame radiatively extinguishes quickly after ignition.  There vaporization rate increases after visible flame extinction and then quickly plateaus well after visible flame extinction, indicative of cool flame burning and extinction.  The HiBMS view gets extremely dark coincident with the vapor cloud formation.
+
+

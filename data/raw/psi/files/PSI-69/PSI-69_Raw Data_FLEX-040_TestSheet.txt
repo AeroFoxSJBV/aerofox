@@ -1,0 +1,26 @@
+FLEX-040 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, January 8, 2010
+	Test Time: 	05:02:52 (GMT)
+	CIR Test Number: 	219R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.52 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.77 
+	kavg  (mm2/s) = 	0.62 
+	Fiber: 	No
+	Dext  (mm) = 	1.77 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a0.30/0.70 O2/N2, 0.7 atm ambient environment.  The droplet has some transverse oscillations after ignition.  The transverse oscillations diminish relatively quickly.  During and after translation the droplet oscillates axially.  It moves into and partially out of the HiBMS FOV (to the E).  The droplet stops moving both transversely and axially and burns smoothly eventually shrinking until it is fully in the HiBMS FOV.  Near the end of the test the droplet begins to oscillate on the fiber and disrupts, dislodging from the fiber and causing flame extinction.
+

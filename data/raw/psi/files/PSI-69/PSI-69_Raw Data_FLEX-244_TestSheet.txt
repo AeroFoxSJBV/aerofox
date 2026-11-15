@@ -1,0 +1,28 @@
+FLEX-244 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 27, 2011
+	Test Time: 	16:40:04 (GMT)
+	CIR Test Number: 	H04H303
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.63 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.20 
+	Temperature (K) = 	 299.41 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.61 
+	kavg  (mm2/s) = 	0.91 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.17/0.63/0.20 O2/N2/He, 1.0 atm ambient environment.  This is a smaller droplet.  After ignition there is a lot of motion on the fiber, not really disruptive burning where the droplet becomes dislodged from the fiber, but the motion clearly influences the burning history.  The droplet burned to completion.  The color camera did not record to the on-board IPSU for this test.
+
+
+

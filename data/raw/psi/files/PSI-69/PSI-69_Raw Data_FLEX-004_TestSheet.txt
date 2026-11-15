@@ -1,0 +1,27 @@
+FLEX-004 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 31, 2009
+	Test Time: 	17:16:18 (GMT)
+	CIR Test Number: 	30CAL02
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.00 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.06 
+	kavg  (mm2/s) = 	0.60 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+This is a freely deployed methanol droplet burning in cabin air.  The droplet drifts S in the HiBMS FOV after deployment and ignition leaving the HiBMS FOV 1/3rd of the way through the burn.  There is some evidence of flame disruption prior to extinction, but it is difficult to judge from the color camera images.  This was a 'calibration' test point.  The igniter overwhelmed the HiBMS and made measuring the droplet impossible until the igniters withdrew.  The LLUV setting was not optimal and the flame nearly disappeared from the LLUV 1/2 way through the burn coincident to when there is a noticeable change in the flame behavior in the Color Camera.
+
+

@@ -1,0 +1,178 @@
+{
+ "id": 20150019858,
+ "title": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+ "abstract": "For the first time on ISS, BASS-II utilized MSG working volume dilution with gaseous nitrogen (N2). We developed a perfectly stirred reactor model to determine the N2 flow time and flow rate to obtain the desired reduced oxygen concentration in the working volume for each test. We calibrated the model with CSA-CP oxygen readings offset using the Mass Constituents Analyzer reading of the ISS ambient atmosphere data for that day. This worked out extremely well for operations, and added a new vital variable, ambient oxygen level, to our test matrices. The main variables tested in BASS-II were ambient oxygen concentration, ventilation flow velocity, and fuel type, thickness, and geometry. BASS-II also utilized the on-board CSA-CP for oxygen and carbon monoxide readings, and the CDM for carbon dioxide readings before and after each test. Readings from these sensors allow us to evaluate the completeness of the combustion. The oxygen and carbon dioxide readings before and after each test were analyzed and compared very well to stoichiometric ratios for a one step gas-phase reaction. The CO versus CO2 followed a linear trend for some datasets, but not for all the different geometries of fuel and flow tested. Lastly, we calculated the heat release rates during each test from the oxygen consumption and burn times, using the constant 13.1 kJ of heat released per gram of oxygen consumed. The results showed that the majority of the tests had heat release rates well below 100 Watts.",
+ "stiType": "CONFERENCE_PAPER",
+ "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+ "publications": [
+  {
+   "submissionId": 20150019858,
+   "id": "f4deff2ebdbb4d38aecd8b92f07b8d8f",
+   "publicationDate": "2015-07-12T00:00:00.0000000+00:00"
+  }
+ ],
+ "authorAffiliations": [
+  {
+   "sequence": 0,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Olson, Sandra L."
+    },
+    "organization": {
+     "name": "NASA Glenn Research Center",
+     "location": "Cleveland, OH United States"
+    }
+   },
+   "id": "323cac8699844b91997f0afcb4370bc3"
+  },
+  {
+   "sequence": 1,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Ferkul, Paul V."
+    },
+    "organization": {
+     "name": "Universities Space Research Association",
+     "location": "Cleveland, OH, United States"
+    }
+   },
+   "id": "e374490241124517bb7bc2cc84f7db7e"
+  },
+  {
+   "sequence": 2,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Bhattacharjee, Subrata"
+    },
+    "organization": {
+     "name": "San Diego State Univ.",
+     "location": "San Diego, CA, United States"
+    }
+   },
+   "id": "6838452a1fbb481a8c9bc0576d75ce10"
+  },
+  {
+   "sequence": 3,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Miller, Fletcher J."
+    },
+    "organization": {
+     "name": "San Diego State Univ.",
+     "location": "San Diego, CA, United States"
+    }
+   },
+   "id": "dff291a256314bcf9af8c4405f6b75b5"
+  },
+  {
+   "sequence": 4,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Fernandez-Pello, Carlos"
+    },
+    "organization": {
+     "name": "California Univ.",
+     "location": "Berkeley, CA, United States"
+    }
+   },
+   "id": "4d8cf8492ee0497596b06412d4f43168"
+  },
+  {
+   "sequence": 5,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Link, Shmuel"
+    },
+    "organization": {
+     "name": "California Univ.",
+     "location": "Berkeley, CA, United States"
+    }
+   },
+   "id": "ac1844903298439eb90826e1720c14f5"
+  },
+  {
+   "sequence": 6,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "T'ien, James S."
+    },
+    "organization": {
+     "name": "Case Western Reserve Univ.",
+     "location": "Cleveland, OH, United States"
+    }
+   },
+   "id": "28f8189336d14721b57d1ed727b913c8"
+  },
+  {
+   "sequence": 7,
+   "submissionId": 20150019858,
+   "meta": {
+    "author": {
+     "name": "Wichman, Indrek"
+    },
+    "organization": {
+     "name": "Michigan State Univ.",
+     "location": "East Lansing, MI, United States"
+    }
+   },
+   "id": "19804c850e834efa95f57111de89900e"
+  }
+ ],
+ "center": {
+  "code": "GRC",
+  "name": "Glenn Research Center",
+  "id": "19eeb25fa404421d9eaa5f876e853e3c"
+ },
+ "subjectCategories": [
+  "Fluid Mechanics And Thermodynamics"
+ ],
+ "keywords": [
+  "combustion products",
+  "oxygen",
+  "International Space Station"
+ ],
+ "copyright": {
+  "thirdPartyPermissionsProduced": false,
+  "disclosedToPublic": false,
+  "containsIndication": false,
+  "publisherPermissionOrRightsToDistribute": false,
+  "belongsToUsGov": false,
+  "determinationType": "PUBLIC_USE_PERMITTED",
+  "thirdPartyContentCondition": "NOT_SET",
+  "belongsToContractor": false,
+  "disclosedInvention": false,
+  "submissionId": 20150019858,
+  "containsThirdPartyMaterial": false,
+  "belongsToPublisher": false,
+  "id": "761d3acd8f6b467c9626a53bb7ac15ae",
+  "belongsToAuthors": false
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "20150019858.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20150019858/downloads/20150019858.pdf",
+    "pdf": "/api/citations/20150019858/downloads/20150019858.pdf",
+    "fulltext": "/api/citations/20150019858/downloads/20150019858.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": [
+  "ICES-2015-196",
+  "GRC-E-DAA-TN21471",
+  "Report Number: ICES-2015-196",
+  "Report Number: GRC-E-DAA-TN21471"
+ ],
+ "aerofox_reason": "BASS-II on-board CSA-CP / CDM sensor readings",
+ "url": "https://ntrs.nasa.gov/citations/20150019858"
+}

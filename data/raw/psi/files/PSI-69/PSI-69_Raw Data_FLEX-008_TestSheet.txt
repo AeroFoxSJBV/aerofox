@@ -1,0 +1,27 @@
+FLEX-008 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, April 10, 2009
+	Test Time: 	18:07:15 (GMT)
+	CIR Test Number: 	30CAL06
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.50 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.95 
+	kavg  (mm2/s) = 	0.79 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Freely deployed heptane droplet burning in a cabin air (nominally 0.21/0.79 O2/N2), 1.0 atm ambient environment.  The droplet drifts SE out of the HiBMS FOV a few seconds after igniter withdraw.  Significant sooting is apparent in the HiBMS.  The droplet also drifts out of the color camera FOV.  It remains in the LLUV FOV for the entire burn.  There is a lot of noise in the droplet diameter data because of the soot.  The droplet disrupts at the end of the burn (from the LLUV).
+
+

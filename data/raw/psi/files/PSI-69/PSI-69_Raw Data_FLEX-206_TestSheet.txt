@@ -1,0 +1,29 @@
+FLEX-206 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, August 29, 2011
+	Test Time: 	19:04:50 (GMT)
+	CIR Test Number: 	N01H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 297.01 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.56 
+	kavg  (mm2/s) = 	0.43 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a nominally air, 0.21/0.79 O2/N2, 1.0 atm ambient environment.  The droplet drifts SE in the HiBMS FOV after deployment, then hits the igniter and changes direction to NW with a relatively high speed.  It drifts NW and out of the HiBMS FOV after a very short time.  The droplet drifts out of the color camera FOV, but remains in the LLUV FOV.  The flame oscillates for several seconds in the middle of the burn.
+
+The flame behavior suggests that this initial droplet size is right on the edge of the radiative limit, as the oscillations characteristically occur just prior to radiative flame extinction, but the flame oscillates briefly before becoming more stable and burning to disruption.  Also, the LLUV flame intensity decreases throughout the test initially (the dip in the middle corresponding to when the flame partially leaves the LLUV FOV, then becoming brighter.
+
+

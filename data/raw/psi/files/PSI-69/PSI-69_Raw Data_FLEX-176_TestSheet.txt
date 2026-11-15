@@ -1,0 +1,27 @@
+FLEX-176 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, February 21, 2011
+	Test Time: 	22:43:37 (GMT)
+	CIR Test Number: 	C08H601
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.59 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.88 
+	kavg  (mm2/s) = 	0.55 
+	Fiber: 	No
+	Dext  (mm) = 	0.0
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts slowly NE in the HiBMS FOV after deployment and ignition and out of the FOV a little over half way through the test.  The droplet burns to a small size and then disrupts.  Extrapolating the droplet history to the time of extinction shows that the droplet had almost completely vaporized when it disrupted ending the test.  The color camera IPSU did not record any images after deployment.
+
+

@@ -1,0 +1,27 @@
+FLEX-082 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, April 19, 2010
+	Test Time: 	17:19:17 (GMT)
+	CIR Test Number: 	304F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.87 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.49 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.84 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	No
+	Dext  (mm) = 	2.39 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.13/0.87 O2/N2, 1.0 atm ambient environment.  Very good deployment and ignition with almost no residual motion.  The droplet does drift S in the HiBMS and out of the FOV, but not until well after flame extinction.  This was a very dim flame.
+
+

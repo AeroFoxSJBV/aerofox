@@ -1,0 +1,27 @@
+FLEX-250 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, October 7, 2011
+	Test Time: 	12:12:14 (GMT)
+	CIR Test Number: 	H06M102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.99 
+	O2 Mole Fraction = 	 0.15 
+	N2 Mole Fraction = 	 0.55 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.30 
+	Temperature (K) = 	 297.58 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.67 
+	kavg  (mm2/s) = 	0.43 
+	Fiber: 	Yes
+	Dext  (mm) = 	3.47 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a 0.15/0.55/0.30 O2/N2/He, 1.0 atm ambient environment.  There is a small amount of axial motion on the fiber, but it doesn't seem to influence the burning behavior to a large degree.  This is a relatively short, transient burn; likely radiative extincion.
+
+

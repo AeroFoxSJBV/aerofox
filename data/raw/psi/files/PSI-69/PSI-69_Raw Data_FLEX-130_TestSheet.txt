@@ -1,0 +1,27 @@
+FLEX-130 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 17, 2010
+	Test Time: 	03:55:59 (GMT)
+	CIR Test Number: 	C13H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.45 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.90 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.91 
+	kavg  (mm2/s) = 	0.05 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.89 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.17/0.38/0.45 O2/N2/CO2, 0.7 atm ambient environment.  This is a very short burn, radiative extinction with the flame extinguishing very quickly after translation starts.  Ther is no vapor cloud formation and the vaporization rate after visible flame extinction is quite small.  As a result, there is likely no, or only very brief, cool flame burning.
+
+

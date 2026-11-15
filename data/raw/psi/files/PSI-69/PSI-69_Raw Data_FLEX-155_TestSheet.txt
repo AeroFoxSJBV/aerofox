@@ -1,0 +1,27 @@
+FLEX-155 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, December 9, 2010
+	Test Time: 	17:49:08 (GMT)
+	CIR Test Number: 	C03H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.12 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.73 
+	kavg  (mm2/s) = 	0.39 
+	Fiber: 	No
+	Dext  (mm) = 	2.52 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet had almost no residual motion after deployment and ignition and stayed in the HiBMS FOV for the entire time images were recorded.  The flame had a very short burn time, likely with radiative extinction.  There was a high vaporization rate after visible flame extinction, and an eventual plateau late in the HiBMS IPSU recording time coincident with a large vapor cloud.  The post visible flame extinction behavior is indicative of cool flame burning and extinction.
+
+

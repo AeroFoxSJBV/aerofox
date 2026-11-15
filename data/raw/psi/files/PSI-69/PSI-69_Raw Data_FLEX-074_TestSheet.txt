@@ -1,0 +1,27 @@
+FLEX-074 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 23, 2010
+	Test Time: 	09:44:36 (GMT)
+	CIR Test Number: 	221F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.15 
+	N2 Mole Fraction = 	 0.84 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.99 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.33 
+	kavg  (mm2/s) = 	0.77 
+	Fiber: 	Yes
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.15/0.85 O2/N2, 1.0 atm ambient environment.  There are significant oscillation on the fiber after deployment that persist throughout the burn.  The oscillations cause the droplet to become misshapen and cause large errors/scatter in the droplet size measurement.  This is a very short burn and although there is not a large disruption, the oscillations compromise the data from the test.
+
+

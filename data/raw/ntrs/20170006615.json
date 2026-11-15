@@ -1,0 +1,106 @@
+{
+ "id": 20170006615,
+ "title": "Mixed Convection Blowoff Limits as a Function of Oxygen Concentration and Upward Forced Stretch Rate for Burning Pmma Rods of Various Sizes",
+ "abstract": "Normal gravity flame blowoff limits in an axisymmetric pmma rod geometry in upward axial stagnation flow are compared with microgravity Burning and Suppression of Solids II (BASS-II) results recently obtained aboard the International Space Station. This testing utilized the same BASS-II concurrent rod geometry, but with the addition of normal gravity buoyant flow. Cast polymethylmethacrylate (pmma) rods of diameters ranging from 0.635 cm to 3.81 cm were burned at oxygen concentrations ranging from 14 to 18 by volume. The forced flow velocity where blowoff occurred was determined for each rod size and oxygen concentration. These blowoff limits compare favorably with the BASS-II results when the buoyant stretch is included and the flow is corrected by considering the blockage factor of the fuel. From these results, the normal gravity blowoff boundary for this axisymmetric rod geometry is determined to be linear, with oxygen concentration directly proportional to flow speed. We describe a new normal gravity upward flame spread test method which extrapolates the linear blowoff boundary to the zero stretch limit to resolve microgravity flammability limits, something current methods cannot do. This new test method can improve spacecraft fire safety for future exploration missions by providing a tractable way to obtain good estimates of material flammability in low gravity.",
+ "stiType": "CONFERENCE_PAPER",
+ "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+ "publications": [
+  {
+   "submissionId": 20170006615,
+   "id": "95c1941f5d4d4dcaa4717d43992f9907",
+   "publicationDate": "2017-07-16T00:00:00.0000000+00:00"
+  }
+ ],
+ "authorAffiliations": [
+  {
+   "sequence": 0,
+   "submissionId": 20170006615,
+   "meta": {
+    "author": {
+     "name": "Marcum, Jeremy W."
+    },
+    "organization": {
+     "name": "Purdue Univ.",
+     "location": "West Lafayette, IN, United States"
+    }
+   },
+   "id": "d7b3908cd20d4ecd930c656803cbdf5b"
+  },
+  {
+   "sequence": 1,
+   "submissionId": 20170006615,
+   "meta": {
+    "author": {
+     "name": "Ferkul, Paul V."
+    },
+    "organization": {
+     "name": "Universities Space Research Association",
+     "location": "Cleveland, OH, United States"
+    }
+   },
+   "id": "dd8e5b2343824ab1989ecc18a4a5813c"
+  },
+  {
+   "sequence": 2,
+   "submissionId": 20170006615,
+   "meta": {
+    "author": {
+     "name": "Olson, Sandra L."
+    },
+    "organization": {
+     "name": "NASA Glenn Research Center",
+     "location": "Cleveland, OH United States"
+    }
+   },
+   "id": "4d9d2d8646ae458689ee1b83469167ce"
+  }
+ ],
+ "center": {
+  "code": "GRC",
+  "name": "Glenn Research Center",
+  "id": "19eeb25fa404421d9eaa5f876e853e3c"
+ },
+ "subjectCategories": [
+  "Fluid Mechanics And Thermodynamics"
+ ],
+ "keywords": [
+  "blowoff",
+  "flammability",
+  "microgravity"
+ ],
+ "copyright": {
+  "thirdPartyPermissionsProduced": false,
+  "disclosedToPublic": false,
+  "containsIndication": false,
+  "publisherPermissionOrRightsToDistribute": false,
+  "belongsToUsGov": false,
+  "determinationType": "PUBLIC_USE_PERMITTED",
+  "thirdPartyContentCondition": "NOT_SET",
+  "belongsToContractor": false,
+  "disclosedInvention": false,
+  "submissionId": 20170006615,
+  "containsThirdPartyMaterial": false,
+  "belongsToPublisher": false,
+  "id": "87733a77f18646758638d828bd736ba0",
+  "belongsToAuthors": false
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "20170006615.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20170006615/downloads/20170006615.pdf",
+    "pdf": "/api/citations/20170006615/downloads/20170006615.pdf",
+    "fulltext": "/api/citations/20170006615/downloads/20170006615.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": [
+  "GRC-E-DAA-TN39560",
+  "Report Number: GRC-E-DAA-TN39560"
+ ],
+ "aerofox_reason": "Mixed-convection blowoff limits vs oxygen concentration",
+ "url": "https://ntrs.nasa.gov/citations/20170006615"
+}

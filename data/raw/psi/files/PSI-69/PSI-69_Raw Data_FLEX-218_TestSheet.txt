@@ -1,0 +1,30 @@
+FLEX-218 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 1, 2011
+	Test Time: 	23:17:17 (GMT)
+	CIR Test Number: 	N04H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.86 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.68 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.83 
+	kavg  (mm2/s) = 	0.39 
+	Fiber: 	No
+	Dext  (mm) = 	1.35 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.14/0.86 O2/N2, 1.0 atm ambient environment.  This is a small droplet that drifts quickly NW in the HiBMS FOV after deployment and ignition and out of the FOV a short time after igniter withdraw.  The droplet appears to radiatively extinguish, even at this relatively small size.
+
+
+
+
+

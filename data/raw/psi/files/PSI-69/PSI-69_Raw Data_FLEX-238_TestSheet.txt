@@ -1,0 +1,30 @@
+FLEX-238 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 27, 2011
+	Test Time: 	12:08:14 (GMT)
+	CIR Test Number: 	H03H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.15 
+	Temperature (K) = 	 297.44 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.52 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	No
+	Dext  (mm) = 	3.28 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.67/0.15 O2/N2/He, 1.0 atm ambient environment.  The droplet is almost motionless after deployment and ignition.  This is a large droplet and stays in HiBMS FOV for the entire test.  The flame grows and continually gets dimmer after ignition and quickly extinguishes due to radiative loss.  After visible flame extinction, the droplet continues vaporize at almost the same rate until a plateau well after flame extinction.  The plateau is coincident with the formation of a large vapor cloud.  Both are indicative of cool flame burning and extinction after visible flame extinction.  The color camera IPSU did not record any images after deployment.
+
+
+
+
+

@@ -1,0 +1,27 @@
+FLEX-197 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, August 18, 2011
+	Test Time: 	00:24:31 (GMT)
+	CIR Test Number: 	C01H501
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.05 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.53 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.06 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	No
+	Dext  (mm) = 	2.28 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.75/0.05 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts E out of HiBMS FOV just before radiative extinction.  There is a large vapor cloud formed 15 - 20 seconds after visible flame extinction (visible in the color camera.  The vapor cloud means that cool flame burning and extinction after visible flame extinction was likely.  The extinction droplet diameter is extrapolated from the droplet history using the measured burning rate constant (later in the droplet lifetime) and the time of extinction from the LLUV.
+
+

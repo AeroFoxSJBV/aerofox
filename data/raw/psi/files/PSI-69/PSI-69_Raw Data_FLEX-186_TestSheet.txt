@@ -1,0 +1,27 @@
+FLEX-186 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, August 8, 2011
+	Test Time: 	13:42:04 (GMT)
+	CIR Test Number: 	C09M601
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.28 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.80 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	No
+	Dext  (mm) = 	1.33 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.23/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts S in the HiBMS FOV after deployment and ignition, goes to the end of the FOV, then drifts W briefly and then back N, never leaving the FOV of any of the cameras.  The flame diffusively extinguishes.
+
+

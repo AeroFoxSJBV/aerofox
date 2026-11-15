@@ -1,0 +1,27 @@
+FLEX-092 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, June 14, 2010
+	Test Time: 	22:54:56 (GMT)
+	CIR Test Number: 	061F002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.25 
+	N2 Mole Fraction = 	 0.60 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.50 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.41 
+	kavg  (mm2/s) = 	0.55 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.14/0.86 O2/N2, 0.7 atm ambient environment.  The droplet drifts N and out of the HiBMS FOV before the burn is complete (about 60% of the burn captured with HiBMS).  The droplet burns for a very long time.  The burn looks very clean, burns to a small size, with a disruption that is coincident with flame extinction.
+
+

@@ -1,0 +1,27 @@
+FLEX-018 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, July 1, 2009
+	Test Time: 	16:28:56 (GMT)
+	CIR Test Number: 	248F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 2.04 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.09 
+	CO2 Mole Fraction = 	 0.70 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.72 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.74 
+	kavg  (mm2/s) = 	0.61 
+	Fiber: 	No
+	Dext  (mm) = 	1.76 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.21/0.09/0.70 O2/N2/CO2, 2.0 atm ambient environment.  There is a luminous yellow flame immediately after ignition, with the HiBMS view showing significant soot formation.  The luminous flame disappears with a dim blue flame surrounding the droplet.  The flame oscillates and then appears to extinguish in both the LLUV and color camera views.  The droplet continues to vaporize vigorously though and the radiometer does not settle to its baseline value.  There is 'hazing' around the droplet in the HiBMS view during combustion, almost like there is significant internal liquid motion.  The droplet disrupts after it drifts out of the HiBMS FOV.  There was likely cool flame burning after visible flame extinction.
+
+

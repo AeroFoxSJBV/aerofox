@@ -1,0 +1,27 @@
+FLEX-140 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, November 4, 2010
+	Test Time: 	16:52:39 (GMT)
+	CIR Test Number: 	C14M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.15 
+	N2 Mole Fraction = 	 0.35 
+	CO2 Mole Fraction = 	 0.50 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.49 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.98 
+	kavg  (mm2/s) = 	0.20 
+	Fiber: 	No
+	Dext  (mm) = 	3.95 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.15/0.35/0.50 O2/N2/CO2, 0.70 atm ambient environment. The droplet has a very small S drift after deployment and ignition, but remains in the HiBMS FOV for the entire recording time.  Very short burn, with the droplet being either significantly larger than the radiative extinction limit or completely outside the quasi-steady flammability boundary.
+
+

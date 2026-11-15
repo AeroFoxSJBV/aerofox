@@ -1,0 +1,27 @@
+FLEX-166 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, December 9, 2010
+	Test Time: 	18:51:34 (GMT)
+	CIR Test Number: 	C03H302
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.36 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.96 
+	kavg  (mm2/s) = 	0.54 
+	Fiber: 	No
+	Dext  (mm) = 	1.39 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.670.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts SE in the HiBMS FOV but remains in the FOV until the visible flame extinguishes and then drifts out.  The flame gets dimmer as the burn progresses, but there are no flame oscillations before flame extinction or vapor cloud formation after visible flame extinction.
+
+

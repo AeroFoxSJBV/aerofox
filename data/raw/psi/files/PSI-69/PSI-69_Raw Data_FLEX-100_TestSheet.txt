@@ -1,0 +1,27 @@
+FLEX-100 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, June 29, 2010
+	Test Time: 	08:30:46 (GMT)
+	CIR Test Number: 	C09H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.04 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	4.14 
+	kavg  (mm2/s) = 	0.34 
+	Fiber: 	No
+	Dext  (mm) = 	3.98 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.23/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet drifts N after deployment and ignition, and out of HiBMS FOV just after visible flame extinction.  The flame radiatively extinguishes at a relatively large droplet size.  There is a vapor cloud formation approximately 15 sec after visible flame extinction.  The vapor cloud is indicative of cool flame burning and extinction.
+
+

@@ -1,0 +1,27 @@
+FLEX-203 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, August 24, 2011
+	Test Time: 	21:05:01 (GMT)
+	CIR Test Number: 	N01M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.09 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.30 
+	kavg  (mm2/s) = 	0.47 
+	Fiber: 	No
+	Dext  (mm) = 	1.42 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a nominally air, 0.21/0.79 O2/N2, 1.0 atm ambient environment.  The droplet stays in FOV of all cameras and diffusively extinguishes.
+
+

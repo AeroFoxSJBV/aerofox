@@ -1,0 +1,27 @@
+FLEX-220 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 8, 2011
+	Test Time: 	17:21:15 (GMT)
+	CIR Test Number: 	N04M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.86 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.79 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.67 
+	kavg  (mm2/s) = 	0.38 
+	Fiber: 	No
+	Dext  (mm) = 	1.27 
+
+COMMENTS:
+
+Free-floating methanol droplet in a 0.14/0.86 O2/N2, 1.0 atm ambient environment.  The droplet drifts N after deployment and ignition, and out of HiBMS FOV.  Some time later it drifts back into the HiBMS FOV, just after visible flame extinction.  This is a weak flame with a long burn to diffusive extinction.  The extinction droplet diameter comes from a spline fit between the periods of time when the droplet is within the HiBMS FOV.
+
+

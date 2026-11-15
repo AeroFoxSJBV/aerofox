@@ -1,0 +1,27 @@
+FLEX-035 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, November 27, 2009
+	Test Time: 	13:01:24 (GMT)
+	CIR Test Number: 	181F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.31 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.85 
+	kavg  (mm2/s) = 	0.43 
+	Fiber: 	No
+	Dext  (mm) = 	3.34 
+
+COMMENTS:
+
+Free-floating heptane droplet in a nominally air (0.21/0.79 O2/N2, 1.0 atm) ambient environment.  The droplet stays in the HiBMS FOV for the entire test including a long time after visible flame extinction.  The flame oscillates before visible flame extinction, apparent in both the LLUV and color camera views.  After flame extinction, the droplet vaporizes very vigorously with a nearly perfectly linear D^2 vs. time behavior.  The vaporization rate is only slightly lower than the burning rate constant before flame extinction.  The droplet vaporization rate then plateaus and this is coincident with the formation of a very large vapor cloud.  This behavior is indicative of cool flame burning and extinction.
+
+

@@ -1,0 +1,27 @@
+FLEX-226 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 9, 2011
+	Test Time: 	17:41:47 (GMT)
+	CIR Test Number: 	H01M102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.05 
+	Temperature (K) = 	 299.77 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.91 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	No
+	Dext  (mm) = 	1.12 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.20/0.75/0.05 O2/N2/He, 1.0 atm ambient environment.  The droplet is nearly motionless after deployment and ignition, but then starts to drift SE in HiBMS FOV a few seconds after ignition.  The droplet drifts out of the HiBMS FOV, but remains in the LLUV and color camera FOVs.  The color camera IPSU failed to record any images after deployment.  The droplet burns for a relatively long time before a diffusive extinction.  The extinction droplet diameter comes from extrapolating the droplet history from the time the droplet leaves the HiBMS FOV until extinction using the burning rate constant from a short period just prior to the droplet leaving the HiBMS FOV.
+
+

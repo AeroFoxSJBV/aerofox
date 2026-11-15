@@ -1,0 +1,27 @@
+FLEX-269 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, November 28, 2011
+	Test Time: 	13:24:55 (GMT)
+	CIR Test Number: 	H13M201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.69 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.45 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.35 
+	Temperature (K) = 	 297.79 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.95 
+	kavg  (mm2/s) = 	0.63 
+	Fiber: 	No
+	Dext  (mm) = 	1.51 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.20/0.45/0.35 O2/N2/He, 0.70 atm ambient environment.  The droplet is nearly motionless after deployment and ignition, drifts around the HiBMS FOV, but remains in the FOV for the entire burn and well after visible flame extinction.
+
+

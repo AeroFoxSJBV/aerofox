@@ -1,0 +1,30 @@
+FLEX-235 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, September 24, 2011
+	Test Time: 	00:06:41 (GMT)
+	CIR Test Number: 	N01H502
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.29 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.39 
+	kavg  (mm2/s) = 	0.57 
+	Fiber: 	No
+	Dext  (mm) = 	Burn to completion
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.21/0.79 O2/N2, 1.0 atm (nominally air) ambient environment.  The droplet stays in HiBMS FOV for most of lifetime.  The droplet burns to a very small size, with a small disruption coincident with visible flame extinction.
+
+
+
+
+

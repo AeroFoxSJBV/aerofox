@@ -1,0 +1,27 @@
+FLEX-088 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, May 5, 2010
+	Test Time: 	22:37:54 (GMT)
+	CIR Test Number: 	053R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.25 
+	N2 Mole Fraction = 	 0.60 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.85 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.01 
+	kavg  (mm2/s) = 	0.53 
+	Fiber: 	No
+	Dext  (mm) = 	1.01 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.25/0.60/0.15 O2/N2/CO2, 0.70 atm ambient environment.  The droplet deploys and ignites with almost no residual motion.  It stays within the HiBMS FOV for the entire test.  The droplet burns cleanly with a brighter blue flame the entire test.  Near the end of test, there is droplet deformation (becoming football shaped), and then disruption that is coincident with flame extinction.  The droplet shatters at the end of the test.  The end of the test is likely compromised by the conformal coating needle contamination.
+
+

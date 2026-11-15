@@ -1,0 +1,27 @@
+FLEX-167 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, January 12, 2011
+	Test Time: 	21:56:45 (GMT)
+	CIR Test Number: 	C07M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.50 
+	CO2 Mole Fraction = 	 0.36 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.72 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.22 
+	kavg  (mm2/s) = 	0.28 
+	Fiber: 	No
+	Dext  (mm) = 	3.08 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.14/0.50/0.36 O2/N2/CO2, 1.0 atm ambient environment.  The droplet remains in the FOV of all cameras.  This is a short burn to radiative extinction.  The color camera IPSU did not record any images after deployment.
+
+

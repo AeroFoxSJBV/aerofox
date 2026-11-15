@@ -1,0 +1,27 @@
+FLEX-106 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, June 21, 2010
+	Test Time: 	15:52:51 (GMT)
+	CIR Test Number: 	C09M401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.97 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.08 
+	kavg  (mm2/s) = 	0.51 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.75 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.23/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet moves W along the fiber a short distance after deployment and ignition but before translation and then moves E with the fiber during translation.  The droplet remains within the HiBMS FOV for the entire test.  There is very little motion of the droplet relative to the fiber during the test.  There is a small disruption coincindent with flame extinction that leaves a slightly smaller droplet on the fiber.  The extinction droplet diameter is the droplet diameter just prior to the diruption.
+
+

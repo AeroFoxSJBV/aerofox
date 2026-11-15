@@ -1,0 +1,25 @@
+FLEX-080 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 30, 2010
+	Test Time: 	02:29:19 (GMT)
+	CIR Test Number: 	207F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.42 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with 3 mm/sec translation burning in a 0.13/0.87 O2/N2, 1.0 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  This was a very short flame lifetime with the flame extinguishing before the droplet started translating.  There was a small vapor cloud formed some time after visible flame extinction.  It is unclear whether there was cool flame burning and extinction following visible flame extinction.

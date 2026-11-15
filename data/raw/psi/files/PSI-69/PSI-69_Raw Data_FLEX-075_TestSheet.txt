@@ -1,0 +1,27 @@
+FLEX-075 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, March 29, 2010
+	Test Time: 	21:06:40 (GMT)
+	CIR Test Number: 	203R002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.85 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.42 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.54 
+	kavg  (mm2/s) = 	0.37 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.78 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.13/0.85 O2/N2, 1.0 atm ambient environment.  After deployment, there is some transverse, but no axial motion along fiber.  The transverse motion persists throughout the test, but stops after flame extinction.  There is no axial motion relative to the fiber, the droplet starts and stops with the start and stop of the fiber.  There is no disruption during this test.
+
+

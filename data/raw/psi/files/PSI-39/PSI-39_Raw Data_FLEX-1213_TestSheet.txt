@@ -1,0 +1,27 @@
+FLEX-1213 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, March 27, 2017
+	Test Time: 	14:37:54 (GMT)
+	CIR Test Number: 	F086A04
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.02 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.84 
+
+TEST CONDITIONS 
+	Fuel: 	Dodecane 
+	D0  (mm) = 	4.19 
+	kavg  (mm2/s) = 	0.19 
+	Fiber: 	Yes
+	Dext  (mm) = 	4.11 
+
+COMMENTS:
+
+Fiber-supported.  Radiative extinction, long cool flame burn and large vapor cloud.
+
+

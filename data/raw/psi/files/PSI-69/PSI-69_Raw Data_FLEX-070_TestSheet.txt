@@ -1,0 +1,25 @@
+FLEX-070 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 23, 2010
+	Test Time: 	07:25:43 (GMT)
+	CIR Test Number: 	193F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.15 
+	N2 Mole Fraction = 	 0.84 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.00 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	4.67 
+	kavg  (mm2/s) = 	0.41 
+	Fiber: 	No
+	Dext  (mm) = 	4.60 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.15/0.85 O2/N2, 1.0 atm ambient environment.  There was extra fuel dispensed after the automated sequence started.  The droplet drifts NW in the HiBMS FOV after deployment, hits the upper igniter and then quickly drifts SE and out of the HiBMS FOV.  The post deployment/ignition velocity is quite high, approximately 8 mm/sec.  The color camera IPSU did not record any images after deployment.  It is unknown whether there was cool flame burning and extinction for this test.

@@ -1,0 +1,28 @@
+FLEX-260 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, November 18, 2011
+	Test Time: 	17:51:23 (GMT)
+	CIR Test Number: 	H11M102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.25 
+	Temperature (K) = 	 300.64 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.61 
+	kavg  (mm2/s) = 	0.73 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.51 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a 0.23/0.52/0.25 O2/N2/He, 0.70 atm ambient environment.  The droplet remains in the HiBMS FOV and there is very little motion on the fiber until very close to visible flame extinction when the droplet gets dislodged from the fiber.  Because flame extinction occurs when the droplet disrupts off of the fiber, there is not extinction droplet diameter listed.
+
+
+

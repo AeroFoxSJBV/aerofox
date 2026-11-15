@@ -1,0 +1,27 @@
+FLEX-169 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 18, 2011
+	Test Time: 	12:54:25 (GMT)
+	CIR Test Number: 	C15M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.64 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.53 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.03 
+	kavg  (mm2/s) = 	0.48 
+	Fiber: 	No
+	Dext  (mm) = 	1.57 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.21/0.64/0.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet is nearly motionless after deployment and ignition.  It drifts around the HiBMS FOV slightly and then disrupts coincident with flame extinction.  The extinction droplet diameter is the droplet diameter at disruption and not the true extinction droplet diameter.
+
+

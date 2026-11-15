@@ -1,0 +1,27 @@
+FLEX-133 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	13:59:59 (GMT)
+	CIR Test Number: 	C21H301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.22 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.25 
+	kavg  (mm2/s) = 	0.56 
+	Fiber: 	No
+	Dext  (mm) = 	0.55 
+
+COMMENTS:
+
+Free-floating heptane droplet in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts NW and out of the HiBMS FOV before the end of the test (about half way).  After ignition, the droplet flame is luminous, quickly changing to a nearly all blue, dim flame.  The flame then begins to oscillate for several seconds before becoming stable and brighter and burning until a small disurption coincident with flame extinction.  The extinction droplet diameter is the droplet diameter when the flame disrupts and is estimated from the burning rate constant while the droplet is within the HiBMS FOV and the time of extinction from either the LLUV or color camera views.
+
+

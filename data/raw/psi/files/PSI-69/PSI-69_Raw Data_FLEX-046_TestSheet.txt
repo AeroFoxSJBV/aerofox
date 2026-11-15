@@ -1,0 +1,28 @@
+FLEX-046 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 12, 2010
+	Test Time: 	13:14:25 (GMT)
+	CIR Test Number: 	205R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.79 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.19 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.78 
+	kavg  (mm2/s) = 	0.54 
+	Fiber: 	No
+	Dext  (mm) = 	1.08 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a nominally air (0.21/0.79 O2/N2), 1.0 atm ambient environment.  The droplet remains in the HiBMS FOV for the entire test.  There is significant oscillatory axial motion during the most of the test.  At the very end, the droplet does become stationary.  There is some deformation/growth/shape change at the end of the test.  There is a small disruption that is coincident with flame extinction.
+
+
+

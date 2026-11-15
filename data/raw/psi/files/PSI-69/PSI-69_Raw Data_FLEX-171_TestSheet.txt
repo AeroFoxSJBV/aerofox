@@ -1,0 +1,27 @@
+FLEX-171 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, January 18, 2011
+	Test Time: 	15:58:46 (GMT)
+	CIR Test Number: 	C15M301
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.21 
+	N2 Mole Fraction = 	 0.64 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.55 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.53 
+	kavg  (mm2/s) = 	0.46 
+	Fiber: 	No
+	Dext  (mm) = 	1.59 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.21/0.64/0.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts N in the HiBMS FOV after deployment and ignition and out of HiBMS FOV about 1/2 way through the burn.  The droplet then drifts back in shortly after diffusive extinction.  The extinction droplet diameter results from a cubic polynomial fit of the droplet history between the two times that the droplet is within the HiBMS FOV (subject to the constraint that the slope of the droplet history of the fit is equal to that of the experiment just before it leaves and after it returns to the FOV).
+
+

@@ -1,0 +1,26 @@
+FLEX-119 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 7, 2010
+	Test Time: 	01:50:01 (GMT)
+	CIR Test Number: 	C12H103
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.40 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.53 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.60 
+	kavg  (mm2/s) = 	0.37 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.48 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.18/0.42/0.40 O2/N2/CO2, 0.70 atm ambient environment.  After ignition the flame quickly extinguishes.  This is likely radiative extinction and it is quite possible this ambient condition is below the flammability limit for heptane.  The droplet has some unusual oscillations on the fiber during the burn that seem to disappear for most of the test (after the flame extinguishes).  The color camera IPSU did not record any images for this test.  There is a brief period of significant vaporization after visible flame extinction followed by formation of a small vapor cloud.  This is indicative of cool flame burning and extinction following visible flame extinction.
+

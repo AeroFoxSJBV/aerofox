@@ -1,0 +1,27 @@
+FLEX-129 
+
+TEST PARAMETERS 
+	Test Date: 	Friday, September 17, 2010
+	Test Time: 	01:32:49 (GMT)
+	CIR Test Number: 	C13H102
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.45 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.63 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	3.33 
+	kavg  (mm2/s) = 	0.33 
+	Fiber: 	No
+	Dext  (mm) = 	3.34 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.17/0.38/0.45 O2/N2/CO2, 0.70 atm ambient environment.  The droplet stays in the FOVs of all the cameras for the very short burn and for a considerable period of time after visible flame extinction.  The LLUV stopped recording images for several seconds right around ignition.  This was a very short burn with no appreciable vaporization or vapor cloud formation after visible flame extinction.  There was likely no cool flame or only a very brief cool flame.
+
+

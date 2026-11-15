@@ -1,0 +1,27 @@
+FLEX-192 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, August 9, 2011
+	Test Time: 	12:46:53 (GMT)
+	CIR Test Number: 	C03M701
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.35 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	1.76 
+	kavg  (mm2/s) = 	0.46 
+	Fiber: 	No
+	Dext  (mm) = 	0.81 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  A smaller droplet that drifts to the lower igniter after deployment.  The igniter seems to stop the drift and the droplet remains near the center of the FOV for the duration of the entire test.  The droplet burns to diffusive extinction.
+
+

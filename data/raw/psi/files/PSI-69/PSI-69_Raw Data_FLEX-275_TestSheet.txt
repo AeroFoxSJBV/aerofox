@@ -1,0 +1,27 @@
+FLEX-275 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, November 30, 2011
+	Test Time: 	11:30:51 (GMT)
+	CIR Test Number: 	H15H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.45 
+	Temperature (K) = 	 299.65 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.22 
+	kavg  (mm2/s) = 	0.76 
+	Fiber: 	No
+	Dext  (mm) = 	1.86 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.17/0.38/0.45 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts NE in the HiBMS FOV, but stays in the FOV for the entire test.  Well after flame extinction, the droplet drifts partially out of the HiBMS FOV and then back in for the remainder of the recording time.  The flame grows continuously throughout the test getting dimmer until the flame extinguishes.  There is no evidence of a cool flame (continued vaporization or vapor cloud).
+
+

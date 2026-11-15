@@ -1,0 +1,25 @@
+FLEX-248 
+
+TEST PARAMETERS 
+	Test Date: 	Saturday, October 1, 2011
+	Test Time: 	04:26:52 (GMT)
+	CIR Test Number: 	H05M202
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.16 
+	N2 Mole Fraction = 	 0.59 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.25 
+	Temperature (K) = 	 299.20 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	 nan 
+	kavg  (mm2/s) = 	 nan 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.16/0.59/0.25 O2/N2/He, 1.0 atm ambient environment.  The HiBMS IPSU did not record any images for this test.  There was only a very small drift S in color camera FOV, but stays in FOV for entire test (as well as the LLUV FOV).  The droplet burned to extinction.

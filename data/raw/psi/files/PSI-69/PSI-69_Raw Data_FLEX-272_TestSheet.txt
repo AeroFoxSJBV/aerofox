@@ -1,0 +1,27 @@
+FLEX-272 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, November 28, 2011
+	Test Time: 	15:54:09 (GMT)
+	CIR Test Number: 	H14M202
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.42 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.40 
+	Temperature (K) = 	 299.77 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	1.84 
+	kavg  (mm2/s) = 	0.62 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.30 
+
+COMMENTS:
+
+Fiber-supported methanol droplet burning in a 0.18/0.42/0.40 O2/N2/He, 0.70 atm ambient environment.  There is almost no axial motion of the droplet relative to the fiber, but the droplet does oscillate radially on the fiber which causes minor disruptions in the flame and creates some scatter in the droplet history. 
+
+

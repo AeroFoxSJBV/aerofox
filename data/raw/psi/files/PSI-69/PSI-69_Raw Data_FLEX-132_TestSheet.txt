@@ -1,0 +1,27 @@
+FLEX-132 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	12:59:06 (GMT)
+	CIR Test Number: 	C21H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.82 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.63 
+	kavg  (mm2/s) = 	0.60 
+	Fiber: 	No
+	Dext  (mm) = 	0.53 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The droplet drifts NE after ignition, but slowly and remains in the FOV for the entire test.  The droplet is initially luminous with a bight yellow flame that eventually turns blue with a little yellow and then blue until the end of the test.  The droplet burns to a small size before a small disruption coincident with flame extinction.  The LLUV IPSU-2 stopped recording for about 7 seconds in the middle of the test.
+
+

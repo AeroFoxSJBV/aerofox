@@ -1,0 +1,27 @@
+FLEX-073 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, March 23, 2010
+	Test Time: 	07:25:43 (GMT)
+	CIR Test Number: 	193F001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.15 
+	N2 Mole Fraction = 	 0.84 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.00 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	4.64 
+	kavg  (mm2/s) = 	0.56 
+	Fiber: 	No
+	Dext  (mm) = 	4.58 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.15/0.85 O2/N2, 1.0 atm ambient environment.  There was an error in the automated test sequence and the MDCA dispensed fuel before deployment.  The result was a very large droplet, much larger than intended.  The droplet drifts NW in the HiBMS FOV after deployment, then hits the igniter and starts to drift SE and quickly out of the FOV.  The droplet lifetime is very short with flame extinction occurring only a few seconds after igniter withdraw.  The color camera IPSU did not record any images after deployment.  There is not enough evidence to know whether this test exhibited cool flame burning and extinction after visible flame extinction.
+
+

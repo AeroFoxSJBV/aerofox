@@ -1,0 +1,26 @@
+FLEX-139 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	19:09:45 (GMT)
+	CIR Test Number: 	C21H305
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.83 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.75 
+	kavg  (mm2/s) = 	0.63 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  The droplet deforms shortly after deployment, presumably due to a gas bubble that burst.  This causes the droplet to drift slowly NE in the HiBMS.  The droplet then had a large flash coincident with ignition that caused the droplet to drift SW at approximately 6 mm/sec.  The droplet drifts with a constant trajectory until it leaves the HiBMS FOV about half way through the test.  The burning rate is relatively high, and the flame is distorted with the large drift velocity.  The droplet burns to a small size where it disrupts coincident with flame extinction.
+

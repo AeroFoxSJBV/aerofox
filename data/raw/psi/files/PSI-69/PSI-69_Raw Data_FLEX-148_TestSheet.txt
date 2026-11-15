@@ -1,0 +1,27 @@
+FLEX-148 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, November 18, 2010
+	Test Time: 	08:39:27 (GMT)
+	CIR Test Number: 	C01H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.20 
+	N2 Mole Fraction = 	 0.75 
+	CO2 Mole Fraction = 	 0.05 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.94 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.58 
+	kavg  (mm2/s) = 	0.54 
+	Fiber: 	No
+	Dext  (mm) = 	1.15 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.20/0.75/0.05 O2/N2/CO2, 1.0 atm ambient environment.  Very little residual motion after deployment and ignition.  The droplet stays in the FOVs of all the cameras for the entire test.  The droplet burns cleanly to small size, then disrupts coincident with flame extinction.  The extinction droplet size is the droplet size when the flame/droplet disrupts.  The HiBMS IPSU (IPSU-1) stopped recording data sometime before deployment to partway through the burn.  The plotted data uses the first measured droplet as time zero although the droplet was burning for some time before that point.
+
+

@@ -1,0 +1,29 @@
+FLEX-173 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, February 21, 2011
+	Test Time: 	19:07:48 (GMT)
+	CIR Test Number: 	C03H601
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.18 
+	N2 Mole Fraction = 	 0.67 
+	CO2 Mole Fraction = 	 0.15 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.91 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.40 
+	kavg  (mm2/s) = 	0.46 
+	Fiber: 	No
+	Dext  (mm) = 	1.96 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.18/0.67/0.15 O2/N2/CO2, 1.0 atm ambient environment.  The droplet stayed in the HiBMS FOV the entire test.  The LLUV provided good distortion free and bright images.  The flame radiatively extinguished.  The visible flame extinction was followed by rapid vaporization, then plateau when the droplet became quite small.  There was a visible vapor cloud formation late in the recording history.  The post visible flame extinction behavior is consistent with cool flame burning and extinction.
+
+
+
+

@@ -1,0 +1,27 @@
+FLEX-187 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, August 8, 2011
+	Test Time: 	14:52:15 (GMT)
+	CIR Test Number: 	C09M701
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.71 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.25 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.78 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.47 
+	kavg  (mm2/s) = 	0.52 
+	Fiber: 	No
+	Dext  (mm) = 	1.21 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.23/0.52/0.25 O2/N2/CO2, 0.70 atm ambient environment.  The droplet deploys and ignites with almost no residual motion and stays in the FOVs of all the cameras for the entire test.  The flame diffusively extinguishes
+
+

@@ -1,0 +1,27 @@
+FLEX-276 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, November 30, 2011
+	Test Time: 	12:09:00 (GMT)
+	CIR Test Number: 	H15H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.38 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.45 
+	Temperature (K) = 	 299.89 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	1.61 
+	kavg  (mm2/s) = 	1.06 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.91 
+
+COMMENTS:
+
+Fiber-supported heptane droplet burning in a 0.17/0.38/0.45 O2/N2/He, 0.70 atm ambient environment.  The droplet exhibits significant axial and radial oscillations throughout the test.  The burning rate and extinction diameter data are strongly influenced by this motion.  The residual droplet on the fiber has a large gas bubble that results in the size jump after visible flame extinction.
+
+

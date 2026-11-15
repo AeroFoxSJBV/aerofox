@@ -1,0 +1,27 @@
+FLEX-086 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, April 19, 2010
+	Test Time: 	19:16:37 (GMT)
+	CIR Test Number: 	305F002
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.13 
+	N2 Mole Fraction = 	 0.87 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 299.79 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.07 
+	kavg  (mm2/s) = 	0.35 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.56 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.13/0.87 O2/N2, 1.0 atm ambient environment.  The droplet oscillates transversely on fiber throughout the test.  It continues to move (relative to the fiber) even after the fiber stops translating.  It drifts out of the HiBMS FOV and to the edge of the LLUV FOV.  Only about half the test is captured by the HiBMS.  The color camera IPSU did not any images after deployment.  The extinction droplet diameter is based on extrapolating the droplet history using the measured burning rate constant while the droplet is within the HiBMS FOV (and extinction from the LLUV).
+
+

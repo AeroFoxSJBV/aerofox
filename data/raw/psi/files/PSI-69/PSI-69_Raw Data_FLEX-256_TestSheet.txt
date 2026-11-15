@@ -1,0 +1,29 @@
+FLEX-256 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 12, 2011
+	Test Time: 	21:58:55 (GMT)
+	CIR Test Number: 	H11H101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.23 
+	N2 Mole Fraction = 	 0.52 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.25 
+	Temperature (K) = 	 299.02 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.80 
+	kavg  (mm2/s) = 	0.71 
+	Fiber: 	No
+	Dext  (mm) = 	0.12 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.23/0.52/0.25 O2/N2/He, 0.70 atm ambient environment.  The droplet drifts E after deployment and ignition in the HiBMS FOV leaving the FOV just prior to extinction or burnout.  The droplet burns to a very small size and then appears to disrupt or rapidly change direction after the droplet leaves the HiBMS FOV.  The extinction droplet diameter comes from extrapolating the droplet history from the time it leaves the FOV until flame extinction using the measured burning rate constant.  The small extinction droplet size suggests that the droplet burned almost to completion.
+
+
+
+

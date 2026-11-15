@@ -1,0 +1,27 @@
+FLEX-112 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, September 1, 2010
+	Test Time: 	15:27:44 (GMT)
+	CIR Test Number: 	C10M401
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 0.70 
+	O2 Mole Fraction = 	 0.00 
+	N2 Mole Fraction = 	 0.00 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 297.69 
+
+TEST CONDITIONS 
+	Fuel: 	 
+	D0  (mm) = 	3.99 
+	kavg  (mm2/s) = 	0.43 
+	Fiber: 	Yes
+	Dext  (mm) = 	2.35 
+
+COMMENTS:
+
+Fber-supported methanol droplet burning in a 0.21/0.49/0.30 O2/N2/CO2, 0.70 atm ambient environment.  There was no fiber translation on this test.  The droplet initially moves W in the HiBMS FOV before stopping and then slowly moving back to the center of the image.  There is a little disruption (maybe a small gas bubble popping) near flame extinction that is coincident with a small sattelite droplet being ejected from the droplet.
+
+

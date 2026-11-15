@@ -1,0 +1,26 @@
+FLEX-045 
+
+TEST PARAMETERS 
+	Test Date: 	Monday, January 11, 2010
+	Test Time: 	10:54:25 (GMT)
+	CIR Test Number: 	206R001
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.30 
+	N2 Mole Fraction = 	 0.70 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.89 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	2.42 
+	kavg  (mm2/s) = 	0.73 
+	Fiber: 	Yes
+	Dext  (mm) = 	1.01 
+
+COMMENTS:
+
+Fiber-supported methanol droplet with 3 mm/sec translation burning in a 0.30/0.70 O2/N2, 1.0 atm ambient environment.  The droplet remains in the HiBMS FOV for the entire test.  There is some axial and transverse droplet motion from deployment until the end of the test.  The color camera IPSU did not record any images after deployment.  The extinction droplet diameter is the droplet diameter when the droplet disrupts and becomes dislodged from the fiber.  The disruption is coincident with flame extinction.  There is some droplet swelling or shape change before disruption.
+

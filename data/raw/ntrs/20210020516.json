@@ -1,0 +1,160 @@
+{
+ "id": 20210020516,
+ "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+ "abstract": "As NASA plans to return people to the Moon for extended durations, we present an experiment concept to understand fire and material flammability there.  A small combustion chamber would be used to conduct the first-ever combustion tests on another world.  Multiple fuel samples are to be individually burned in Lunar gravity, with cameras and other sensors recording flame characteristics.\n\nThe main hypothesis is that some materials burning in Lunar-g are more flammable than on Earth.  The reason is that buoyant flow has two counteracting effects on material flammability.  Increasing gravity level permits more fresh oxygen to be supplied to the flame, but if the buoyant speed is too high, combustion chemistry and increased cooling hinder combustion.  This has important implications for the current 1-g material screening method used by NASA.  \n\nOxygen limits for upward and downward spread on the Moon will be compared to 1-g values.  Earth-based partial gravity facilities (drop towers, aircraft, and sounding rockets) will be used to refine the experiment and provide some limited-duration data.  Measured flame characteristics in 1-g and Lunar-g will be compared to a detailed model.  These will refine pressure-gravity scaling relations that will then be applied to other g-levels.  The work directly addresses knowledge gaps in flammability and crew safety as defined in several NASA strategic documents.",
+ "stiType": "PRESENTATION",
+ "distributionDate": "2021-08-19T04:00:00.0000000+00:00",
+ "publications": null,
+ "authorAffiliations": [
+  {
+   "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+   "sequence": 0,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Paul Ferkul"
+    },
+    "organization": {
+     "name": "Universities Space Research Association",
+     "location": "Columbia, Maryland, United States"
+    }
+   },
+   "id": "1b5f12dbfdf74c70ad3da68e7621b3a1",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "e1b28b8eccc546bf8ff8d69e271adf75"
+  },
+  {
+   "organizationId": "ef57c2628ac159568c05f9b33526619e",
+   "sequence": 1,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "name": "Ya-Ting Liao"
+    },
+    "organization": {
+     "name": "Case Western Reserve University",
+     "location": "Cleveland, Ohio, United States"
+    }
+   },
+   "id": "7782df16b428487c9ef558396b6ebb50",
+   "userType": "OTHER"
+  },
+  {
+   "organizationId": "fdea3daf3b5156699f511edf3e9b9ec4",
+   "sequence": 2,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Gary Ruff"
+    },
+    "organization": {
+     "name": "Glenn Research Center",
+     "location": "Cleveland, Ohio, United States"
+    }
+   },
+   "id": "27df4d7d65614014952fb8d37389a39c",
+   "userType": "CIVIL",
+   "userId": "f5daba98616b4f9faeb0dc31767c1f15"
+  },
+  {
+   "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+   "sequence": 3,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Daniel Gotti"
+    },
+    "organization": {
+     "name": "Universities Space Research Association",
+     "location": "Columbia, Maryland, United States"
+    }
+   },
+   "id": "07c35c20764449aebcec508706a38715",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "5dec5aeba1dc40738a4542f22c08850d"
+  },
+  {
+   "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+   "sequence": 4,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Jay Owens"
+    },
+    "organization": {
+     "name": "Universities Space Research Association",
+     "location": "Columbia, Maryland, United States"
+    }
+   },
+   "id": "ff4e2a7e52f8488ea4b71d0ad77ff75b",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "6a727331070245f48669f2973eb3198b"
+  },
+  {
+   "sequence": 5,
+   "submissionId": 20210020516,
+   "meta": {
+    "author": {
+     "name": "Luke Ogorzaly"
+    },
+    "organization": {
+     "name": "HX5 Sierra"
+    }
+   },
+   "id": "c226df2cb4a1425ea0d925c672f16856",
+   "userType": "OTHER"
+  }
+ ],
+ "center": {
+  "code": "GRC",
+  "name": "Glenn Research Center",
+  "id": "19eeb25fa404421d9eaa5f876e853e3c"
+ },
+ "subjectCategories": [
+  "Lunar And Planetary Science And Exploration"
+ ],
+ "keywords": [
+  "Fire",
+  "Flammability",
+  "Partial Gravity",
+  "Flame Spread",
+  "Lunar Habitats"
+ ],
+ "copyright": {
+  "thirdPartyPermissionsProduced": false,
+  "disclosedToPublic": false,
+  "containsIndication": false,
+  "publisherPermissionOrRightsToDistribute": false,
+  "belongsToUsGov": false,
+  "determinationType": "GOV_PERMITTED",
+  "thirdPartyContentCondition": "NOT_SET",
+  "belongsToContractor": false,
+  "disclosedInvention": false,
+  "licenseType": "NO",
+  "submissionId": 20210020516,
+  "containsThirdPartyMaterial": false,
+  "belongsToPublisher": false,
+  "id": "6c375de7c62044778ce8e7bc62ca48aa",
+  "belongsToAuthors": false
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "Fire on the Moon-Overview charts-v1.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20210020516/downloads/Fire%20on%20the%20Moon-Overview%20charts-v1.pdf",
+    "pdf": "/api/citations/20210020516/downloads/Fire%20on%20the%20Moon-Overview%20charts-v1.pdf",
+    "fulltext": "/api/citations/20210020516/downloads/Fire%20on%20the%20Moon-Overview%20charts-v1.pdf.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": null,
+ "aerofox_reason": "Fire on the Moon: solid-fuel experiments",
+ "url": "https://ntrs.nasa.gov/citations/20210020516"
+}

@@ -1,0 +1,27 @@
+FLEX-135 
+
+TEST PARAMETERS 
+	Test Date: 	Wednesday, October 6, 2010
+	Test Time: 	16:22:15 (GMT)
+	CIR Test Number: 	C21H501
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.01 
+	O2 Mole Fraction = 	 0.24 
+	N2 Mole Fraction = 	 0.56 
+	CO2 Mole Fraction = 	 0.20 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 300.61 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.78 
+	kavg  (mm2/s) = 	0.59 
+	Fiber: 	Yes
+	Dext  (mm) = 	0.00 
+
+COMMENTS:
+
+Fiber-supported heptane droplet with no translation in a 0.24/0.56/0.20 O2/N2/CO2, 1.0 atm ambient environment.  There is a small droplet to the W of the main droplet that ignited and quickly burned off.  There is significant transverse and axial motion of the droplet on the fiber during most of the test.  The droplet drifted W on the fiber after deployment, but then stopped and oscillated (irregularly) axially and transversly during the entire burn.  There was a brief shape change from spherical at the time of the discrete change in droplet size that corresponded to something being ejected from the droplet (visible on the color camera view).
+
+

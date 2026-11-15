@@ -1,0 +1,27 @@
+FLEX-219 
+
+TEST PARAMETERS 
+	Test Date: 	Thursday, September 8, 2011
+	Test Time: 	17:00:27 (GMT)
+	CIR Test Number: 	N04M101
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.14 
+	N2 Mole Fraction = 	 0.86 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.00 
+	Temperature (K) = 	 298.59 
+
+TEST CONDITIONS 
+	Fuel: 	Methanol 
+	D0  (mm) = 	3.50 
+	kavg  (mm2/s) = 	0.30 
+	Fiber: 	No
+	Dext  (mm) = 	 nan 
+
+COMMENTS:
+
+Free-floating methanol droplet burning in a 0.14/0.86 O2/N2, 1.0 atm ambient environment.  The droplet drifts N and out of HiBMS FOV about 1/4th of the way through a very long burn that appeared to end in a diffusive extinction.  The droplet drifts E in the LLUV FOV and partially out of the FOV, but stays in the Color Camera FOV.  This was a very weak flame, barely visible on both the LLUV and color cameras.  There is no extinction droplet diameter reported because the droplet is only in the HiBMS FOV for a small fraction of the flame lifetime.
+
+

@@ -1,0 +1,27 @@
+FLEX-242 
+
+TEST PARAMETERS 
+	Test Date: 	Tuesday, September 27, 2011
+	Test Time: 	15:12:24 (GMT)
+	CIR Test Number: 	H04H201
+
+AMBIENT ENVIRONMENT 
+	Pressure (atm) = 	 1.00 
+	O2 Mole Fraction = 	 0.17 
+	N2 Mole Fraction = 	 0.63 
+	CO2 Mole Fraction = 	 0.00 
+	He Mole Fraction = 	 0.20 
+	Temperature (K) = 	 299.16 
+
+TEST CONDITIONS 
+	Fuel: 	Heptane 
+	D0  (mm) = 	2.12 
+	kavg  (mm2/s) = 	0.59 
+	Fiber: 	No
+	Dext  (mm) = 	1.39 
+
+COMMENTS:
+
+Free-floating heptane droplet burning in a 0.17/0.63/0.20 O2/N2/He, 1.0 atm ambient environment.  The droplet has almost no drift after deployment and ignition, moving slightly to the SE in the HiBMS FOV but remaining in the FOV of all the cameras for the entire test.  The color camera IPSU failed to record any images after deployment.  The flame extinguished after approximately 5 sec and that is likely followed by cool flame burning and extinction.
+
+

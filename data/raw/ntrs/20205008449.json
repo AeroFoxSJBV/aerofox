@@ -1,0 +1,108 @@
+{
+ "id": 20205008449,
+ "title": "Effects of Ambient Inert Gas Properties on Cool-Flame Combustion of Normal-Alkane Droplets in Microgravity",
+ "abstract": "Cool-flame-supported quasi-steady droplet combustion was first observed during droplet combustion experiments conducted onboard the International Space Station (ISS) in the Combustion Integrated Rack (CIR) with n-alkane fuels.  These cool flames, not visible to the naked eye, result from the existence of the negative-temperature-coefficient (NTC) region during the combustion n-alkane fuels when the chemical-kinetic pathways experience a transition from the low-temperature chemistry to the normal, high-temperature-controlled chemistry.  In this study, we present results for the cool-flame-supported droplet burning rates and extinction diameters for n-alkane fuels (n-heptane, n-octane, n-decane, and n-dodecane) in inert-diluent-substituted ambient environments. In these ISS experiments, some of the nitrogen in the ambient gas mixture is replaced by an inert gas, namely, carbon dioxide, helium, or xenon. Different diluents were observed to exert remarkably different influences on the cool-flame combustion of fuel droplets. The results show that the cool-flame extinction diameter is drastically increased with helium dilution compared to N2, CO2 or Xe, and Xe dilution leads to longer burning with a smaller extinction diameter.\n\n  Unlike hot flames, the cool-flame burning rates are controlled by the cool-flame temperature established in the NTC region by the chemical kinetics, rather than by equilibrium thermodynamics, and the thermo-physical properties of the ambient gases, which control the heat feed back to the liquid droplet. The cool-flame extinction is triggered by the instability that occurs at the low-temperature end of the NTC region, below which cool diffusion flames become statically unstable. A quasi-steady theoretical model, presented earlier, which involves a six-step reduced-chemistry mechanism, valid around the lower end of the NTC region, is shown to explain the observed experimental trends qualitatively.\n",
+ "stiType": "PRESENTATION",
+ "distributionDate": "2021-01-06T05:00:00.0000000+00:00",
+ "publications": null,
+ "authorAffiliations": [
+  {
+   "organizationId": "ef57c2628ac159568c05f9b33526619e",
+   "sequence": 0,
+   "submissionId": 20205008449,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Vedha Nayagam"
+    },
+    "organization": {
+     "name": "Case Western Reserve University",
+     "location": "Cleveland, Ohio, United States"
+    }
+   },
+   "id": "3af95d181e6e449c82072ae082aec10a",
+   "userType": "CONTRACTOR_GRANTEE",
+   "userId": "1aac2709535f4da2818ba42f938b6d90"
+  },
+  {
+   "organizationId": "fdea3daf3b5156699f511edf3e9b9ec4",
+   "sequence": 1,
+   "submissionId": 20205008449,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Daniel L Dietrich"
+    },
+    "organization": {
+     "name": "Glenn Research Center",
+     "location": "Cleveland, Ohio, United States"
+    }
+   },
+   "id": "ab926cefb4cc4a5d97ff8a80f9ef6628",
+   "userType": "CIVIL",
+   "userId": "addb6443628246ef86b6e9dabd8e81dd"
+  },
+  {
+   "organizationId": "1aa7ccf98bdb5f79aefa0b9ac86836ac",
+   "sequence": 2,
+   "submissionId": 20205008449,
+   "meta": {
+    "author": {
+     "name": "Forman A Williams"
+    },
+    "organization": {
+     "name": "University of California, San Diego",
+     "location": "San Diego, California, United States"
+    }
+   },
+   "id": "45193069f8184741ba0ce756c25fc8e7",
+   "userType": "OTHER"
+  }
+ ],
+ "center": {
+  "code": "GRC",
+  "name": "Glenn Research Center",
+  "id": "19eeb25fa404421d9eaa5f876e853e3c"
+ },
+ "subjectCategories": [
+  "Engineering (General)"
+ ],
+ "keywords": [
+  "microgravity",
+  "combustion",
+  "cool flames"
+ ],
+ "copyright": {
+  "thirdPartyPermissionsProduced": false,
+  "disclosedToPublic": false,
+  "containsIndication": false,
+  "publisherPermissionOrRightsToDistribute": false,
+  "belongsToUsGov": false,
+  "determinationType": "PUBLIC_USE_PERMITTED",
+  "thirdPartyContentCondition": "NOT_SET",
+  "belongsToContractor": false,
+  "disclosedInvention": false,
+  "licenseType": "NO",
+  "submissionId": 20205008449,
+  "containsThirdPartyMaterial": false,
+  "belongsToPublisher": false,
+  "id": "91793fa8f11341e198d757a3b6367c1d",
+  "belongsToAuthors": false
+ },
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "Effects of ambient inert gas properties -Combustion Science-Nayagam-FAW.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20205008449/downloads/Effects%20of%20ambient%20inert%20gas%20properties%20-Combustion%20Science-Nayagam-FAW.pdf",
+    "pdf": "/api/citations/20205008449/downloads/Effects%20of%20ambient%20inert%20gas%20properties%20-Combustion%20Science-Nayagam-FAW.pdf",
+    "fulltext": "/api/citations/20205008449/downloads/Effects%20of%20ambient%20inert%20gas%20properties%20-Combustion%20Science-Nayagam-FAW.pdf.txt"
+   }
+  }
+ ],
+ "otherReportNumbers": null,
+ "aerofox_reason": "Inert-gas effects on cool-flame droplet combustion (CFI)",
+ "url": "https://ntrs.nasa.gov/citations/20205008449"
+}
