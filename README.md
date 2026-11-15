@@ -30,7 +30,7 @@ Rather than relying on an ungrounded black-box LLM, AeroFox strictly decouples:
 ## 🚀 Quick Start (Windows)
 
 ```
-git clone [suspicious link removed]
+git clone (https://github.com/hannaginsicke/aerofox)
 cd aerofox
 START_AEROFOX.bat
 
