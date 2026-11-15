@@ -30,8 +30,17 @@ git clone https://github.com/hannaginsicke/aerofox
 cd aerofox
 START_AEROFOX.bat
 
-🌐 Live Demo (Interactive Prototype): https://treo-usc-hardcover-stops.trycloudflare.com
-(Note: Ephemeral development tunnel hosted during judging).
+## 🌐 Live Prototype &amp; Infrastructure Notes
+
+An interactive demonstration instance of the AeroFox interface is accessible via a temporary tunnel during judging:
+
+&gt; **Live Demo URL:** https://treo-usc-hardcover-stops.trycloudflare.com *(Hosted via Cloudflare Quick Tunnel on a local host machine)*
+
+### ⚠️ Important Notice for Reviewers &amp; Judges:
+
+* **Ephemeral Session Architecture:** Due to hackathon infrastructure constraints and to avoid third-party proprietary hosting costs, this live prototype runs on a local development host linked through a free Cloudflare Quick Tunnel.
+* **Potential Intermittent Availability:** If the host machine enters sleep mode, restarts, or experiences a network disconnection, the tunnel session may close or regenerate with a new endpoint.
+* **Offline / Local Verification:** In the event that the live tunnel link is momentarily unreachable, the entire AeroFox application can be reproduced deterministically on any Windows machine using the provided `START_AEROFOX.bat` script, or verified through our recorded demonstration pitch and technical documentation in the `docs/` and `reports/` folders.
 
 ```
 
