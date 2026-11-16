@@ -50,6 +50,7 @@ def main() -> None:
     ap.add_argument("--external-local-model", action="store_true", help="use an already running local model")
     ap.add_argument("--model-profile", choices=("auto", "gpu", "cpu"), default="auto")
     ap.add_argument("--host", default="127.0.0.1", help="use 0.0.0.0 to let teammates on your network connect")
+    ap.add_argument("--setup-only", action="store_true", help="create .venv and install dependencies, then exit")
     a = ap.parse_args()
 
     if sys.version_info < (3, 10):
@@ -71,6 +72,9 @@ def main() -> None:
         if r.returncode != 0:
             fail("dependency installation failed.", "check your internet connection (needed once), or a corporate proxy; then retry.")
         stamp.write_text(h)
+    if a.setup_only:
+        say("Python environment ready.")
+        return
 
     port = a.port
     while not port_free(port) and port < a.port + 20:

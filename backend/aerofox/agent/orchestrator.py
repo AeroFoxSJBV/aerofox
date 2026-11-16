@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import re
 import threading
 import time
@@ -9,6 +10,7 @@ from datetime import date
 
 from ..config import settings
 from ..evidence.store import get_store
+from . import progress
 from . import llm
 from .nlu import explicit_language, fold, understand
 from .planner import T, compose, make_plan
@@ -16,7 +18,9 @@ from .state import ProjectState, Session, SessionStore
 from .tools import run_tool
 
 log = logging.getLogger("aerofox.turn")
-SESSIONS = SessionStore(settings.max_sessions, settings.session_ttl_s)
+_SESSION_DB = os.environ.get("AEROFOX_SESSION_DB", "var/sessions.sqlite3")
+SESSIONS = SessionStore(settings.max_sessions, settings.session_ttl_s,
+                        None if _SESSION_DB.lower() == "off" else str(settings.root / _SESSION_DB))
 
 
 class Budget:
@@ -182,7 +186,10 @@ def handle_turn(session_id: str | None, text: str, request_id: str) -> dict:
             s.last_blocks = [b["artifact_id"] for b in blocks if b.get("artifact_id")]
         s.remember("user", text)
         s.remember("assistant", answer)
+        SESSIONS.persist(s)
         elapsed = round(time.monotonic() - t0, 3)
+        progress.count("turns")
+        progress.count("llm_answers" if mode == "llm" else f"offline:{generation.get('reason') or 'error'}")
         log.info("rid=%s mode=%s status=%s reason=%s intents=%s tools=%s blocks=%d %.2fs", request_id, mode,
                  generation["status"], generation["reason"], sorted(u.intents), [r.get("tool") for r in results], len(blocks), elapsed)
         return {

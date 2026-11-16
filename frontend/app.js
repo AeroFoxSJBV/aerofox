@@ -244,6 +244,31 @@
   }
 
   // ------------------------------------------------------------ chat
+  // Start the turn as a background job and poll it. Each request is short, so tunnels and proxies that cut
+  // long requests (Cloudflare ~100 s) never break an answer; brief network blips are retried.
+  async function runJob(text, signal, onEvent) {
+    const job = await api("/api/chat/jobs", { method: "POST", body: JSON.stringify({ message: text, session_id: state.session }), signal });
+    let next = 0, misses = 0;
+    for (;;) {
+      await new Promise((r) => setTimeout(r, 1000));
+      if (signal.aborted) throw new DOMException("aborted", "AbortError");
+      let p;
+      try { p = await api(`/api/chat/jobs/${job.job_id}?after=${next}`, { signal }); misses = 0; }
+      catch (e) {
+        if (signal.aborted) throw e;
+        if (e.status === 404) throw new Error("The server restarted during this answer. Please ask again.");
+        if (++misses > 20) throw new Error("Lost contact with the AeroFox server.");
+        continue;
+      }
+      next = p.next;
+      p.events.forEach(onEvent);
+      if (p.done) {
+        if (!p.result || p.result.error) { const e = new Error(p.result?.error || "The answer ended unexpectedly."); e.status = 500; e.rid = p.result?.request_id; throw e; }
+        return p.result;
+      }
+    }
+  }
+
   async function send(text) {
     text = (text || "").trim();
     if (!text || state.busy) return;
@@ -253,11 +278,25 @@
     $("#home").classList.add("hidden"); showView("chat");
     addUser(text);
     const typing = document.createElement("div"); typing.className = "typing";
-    typing.innerHTML = '<span class="pulse"></span> Preparing a review from NASA evidence… <button type="button">Cancel</button>';
+    typing.innerHTML = '<span class="pulse"></span> <span class="stage-text">Preparing a review from NASA evidence…</span> <span class="elapsed"></span> <button type="button">Cancel</button>';
     typing.querySelector("button").onclick = () => pending.abort();
     $("#thread").append(typing); scrollEnd();
+    const t0 = Date.now();
+    const pt = /^pt/i.test(document.documentElement.lang || "") || state.lang === "pt";
+    const timer = setInterval(() => { typing.querySelector(".elapsed").textContent = `${Math.round((Date.now() - t0) / 1000)} s`; }, 1000);
+    const stageText = (ev) => {
+      if (ev.stage === "queue") return pt ? `Na fila do modelo: posição ${ev.position} (~${Math.max(10, ev.eta_s)} s)` : `Waiting for the model: position ${ev.position} (~${Math.max(10, ev.eta_s)} s)`;
+      if (ev.stage === "planning") return pt ? "Entendendo a pergunta…" : "Understanding the question…";
+      if (ev.stage === "tools") return pt ? "Calculando com dados da NASA…" : "Computing with NASA data…";
+      if (ev.stage === "answering") return pt ? "Escrevendo a resposta…" : "Writing the answer…";
+      return null;
+    };
     try {
-      const r = await api("/api/chat", { method: "POST", body: JSON.stringify({ message: text, session_id: state.session }), signal: pending.signal });
+      const r = await runJob(text, pending.signal, (ev) => {
+        const label = stageText(ev);
+        if (label) typing.querySelector(".stage-text").textContent = label;
+      });
+      clearInterval(timer);
       typing.remove();
       if (pending.signal.aborted) return;
       const first = !state.session;
@@ -265,6 +304,7 @@
       if (first || !history().some((c) => c.id === r.session_id)) rememberConversation(r.session_id, text);
       addAssistant(r);
     } catch (e) {
+      clearInterval(timer);
       typing.remove();
       if (pending.signal.aborted) return;
       addError(e.status === 429 ? "Too many requests from this address — please wait a minute and try again."

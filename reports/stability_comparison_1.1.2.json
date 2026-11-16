@@ -1,0 +1,344 @@
+{
+ "date": "2026-11-15",
+ "model": "aerofox-qwen-1.5b (Qwen2.5-1.5B-Instruct Q4_K_M, llama-cpp-python server, 4 CPU threads, Linux container)",
+ "baseline": "1.1.1 (commit f78af88)",
+ "candidate": "1.1.2",
+ "quality": {
+  "turns": 11,
+  "identical_answers": 10,
+  "same_tools_blocks_sources": 11,
+  "median_s": {
+   "base": 37.2,
+   "new": 40.8
+  },
+  "turns_detail": [
+   {
+    "case": "flex035",
+    "question": "Why does the curve keep descending after visible extinction in FLEX-035?",
+    "tools": [
+     "flex035_case_study"
+    ],
+    "blocks": [
+     "chart"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 27.2,
+     "words": 70,
+     "answer": "The curve keeps descending after visible extinction in FLEX-035 because a cool flame persisted, attributed to the FLEX report as a signature of cool-flame burning followed by cool-flame extinction. This suggests that the droplet's regression rate slowed down significantly after the visible flame went out.\n\n**Practical Next Step:** Conduct further experiments with different initial conditions or materials to confirm this interpretation and understand the underlying mechanisms better.\n\n[F04] [LIT-FLEX035] [LIT-FLEX035-PLATEAU]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 24.4,
+     "words": 70,
+     "answer": "The curve keeps descending after visible extinction in FLEX-035 because a cool flame persisted, attributed to the FLEX report as a signature of cool-flame burning followed by cool-flame extinction. This suggests that the droplet's regression rate slowed down significantly after the visible flame went out.\n\n**Practical Next Step:** Conduct further experiments with different initial conditions or materials to confirm this interpretation and understand the underlying mechanisms better.\n\n[F04] [LIT-FLEX035] [LIT-FLEX035-PLATEAU]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "habitat-transfer",
+    "question": "We are planning a surface outpost on the Moon. Chart which fire barrier needs verification first.",
+    "tools": [
+     "fire_safety_factors"
+    ],
+    "blocks": [
+     "matrix"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 56.3,
+     "words": 120,
+     "answer": "**Fire Barrier Verification Order:**\n**Atmosphere (O2 Fraction and Total Pressure):**\n- Verify the cabin's O2 fraction and total pressure to ensure it meets the design criteria.\n**Ignition Sources (Electrical Systems, Batteries, Heaters):**\n- Confirm that electrical systems are safe with proper insulation and circuit protection.\n**Oxygen Generation and Storage Hardware:**\n- Ensure that oxygen generation hardware is compatible with the cabin atmosphere.\n**Material Flammability:**\n- Test materials for flammability at the design O2 fraction to ensure they meet safety standards.\n**Next Step:** Conduct material testing at the design atmospheric conditions using representative samples from the proposed materials list and thicknesses. This will provide definitive verification of the fire barrier's effectiveness against potential hazards on the Moon.\n\n[LIT-MOON-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 56.4,
+     "words": 120,
+     "answer": "**Fire Barrier Verification Order:**\n**Atmosphere (O2 Fraction and Total Pressure):**\n- Verify the cabin's O2 fraction and total pressure to ensure it meets the design criteria.\n**Ignition Sources (Electrical Systems, Batteries, Heaters):**\n- Confirm that electrical systems are safe with proper insulation and circuit protection.\n**Oxygen Generation and Storage Hardware:**\n- Ensure that oxygen generation hardware is compatible with the cabin atmosphere.\n**Material Flammability:**\n- Test materials for flammability at the design O2 fraction to ensure they meet safety standards.\n**Next Step:** Conduct material testing at the design atmospheric conditions using representative samples from the proposed materials list and thicknesses. This will provide definitive verification of the fire barrier's effectiveness against potential hazards on the Moon.\n\n[LIT-MOON-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "habitat-transfer",
+    "question": "And on Mars?",
+    "tools": [
+     "fire_safety_factors"
+    ],
+    "blocks": [
+     "matrix"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 58.3,
+     "words": 69,
+     "answer": "**Fire Barrier Verification Order:**\n\n**Atmosphere (O2 Fraction and Total Pressure):** Verify the cabin's O2 fraction and total pressure to ensure it meets the design criteria.\n\n**Ignition Sources (Electrical Systems, Batteries, Heaters):** Confirm that electrical systems are safe with proper insulation and circuit protection.\n\nThe practical next step is to conduct battery thermal-runaway tests at the design O2 concentration to ensure electrical ignition sources are safe.\n\n[LIT-MARS-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 55.8,
+     "words": 69,
+     "answer": "**Fire Barrier Verification Order:**\n\n**Atmosphere (O2 Fraction and Total Pressure):** Verify the cabin's O2 fraction and total pressure to ensure it meets the design criteria.\n\n**Ignition Sources (Electrical Systems, Batteries, Heaters):** Confirm that electrical systems are safe with proper insulation and circuit protection.\n\nThe practical next step is to conduct battery thermal-runaway tests at the design O2 concentration to ensure electrical ignition sources are safe.\n\n[LIT-MARS-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "oxygen-pt",
+    "question": "Mostre um gráfico de como o oxigênio se relaciona com a taxa de queima de gotas no FLEX.",
+    "tools": [
+     "chart_flex_burning_rate_vs_oxygen",
+     "flex_query"
+    ],
+    "blocks": [
+     "chart"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 37.2,
+     "words": 71,
+     "answer": "The FLEX burning-rate constant vs ambient O2 graph shows that the oxygen concentration significantly affects the burning rate of both heptane and methanol. The data is descriptive and not predictive.\n\nThe strongest evidence is the regression analysis showing a significant positive correlation between oxygen concentration and burning rate for both fuels. To determine if this relationship holds in real-world conditions, additional testing with similar conditions should be conducted.\n\n[F03] [F02] [PSI-69]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 34.6,
+     "words": 71,
+     "answer": "The FLEX burning-rate constant vs ambient O2 graph shows that the oxygen concentration significantly affects the burning rate of both heptane and methanol. The data is descriptive and not predictive.\n\nThe strongest evidence is the regression analysis showing a significant positive correlation between oxygen concentration and burning rate for both fuels. To determine if this relationship holds in real-world conditions, additional testing with similar conditions should be conducted.\n\n[F03] [F02] [PSI-69]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "isolation",
+    "question": "How could shared return air move contamination from a battery bay? Model the difference if I isolate it.",
+    "tools": [
+     "compare_ventilation_designs",
+     "fire_safety_factors"
+    ],
+    "blocks": [
+     "chart",
+     "chart",
+     "matrix"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 43.5,
+     "words": 74,
+     "answer": "The shared return air in a battery bay can move contamination from the battery area to other compartments.\n\nTo isolate this effect, you could model the difference by removing the isolation feature and observing how it impacts the tracer levels in the crew module compartment. This would help determine if the contamination from the battery area is effectively contained or spread throughout other compartments when shared return air is present.\n\n[LIT-APOLLO1] [LIT-APOLLO13] [LIT-SAF2-IGNITION] [LIT-MIR]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 44.1,
+     "words": 74,
+     "answer": "The shared return air in a battery bay can move contamination from the battery area to other compartments.\n\nTo isolate this effect, you could model the difference by removing the isolation feature and observing how it impacts the tracer levels in the crew module compartment. This would help determine if the contamination from the battery area is effectively contained or spread throughout other compartments when shared return air is present.\n\n[LIT-APOLLO1] [LIT-APOLLO13] [LIT-SAF2-IGNITION] [LIT-MIR]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "saffire",
+    "question": "Show the independent measurements for Saffire-II flow, especially sample 2-6.",
+    "tools": [
+     "saffire2_flow_case_study"
+    ],
+    "blocks": [
+     "chart",
+     "table"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 31.7,
+     "words": 8,
+     "answer": "**Independent Measurements for Saffire-II Flow:**\n\n[F05] [LIT-SAF2-FLOW] [PSI-99]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "recovered",
+     "s": 43.5,
+     "words": 29,
+     "answer": "The practical next step is to conduct further tests with consistent conditions across all samples to isolate any potential run-to-run variability that may affect the results.\n\n[F05] [LIT-SAF2-FLOW] [PSI-99]"
+    },
+    "identical_answer": false,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "new-engineering",
+    "question": "What should a verification plan measure for wiring faults near the breathing circuit in an EVA suit?",
+    "tools": [
+     "fire_safety_factors"
+    ],
+    "blocks": [
+     "matrix"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 42.8,
+     "words": 118,
+     "answer": "**Verification Plan for Wiring Faults Near the Breathing Circuit in an EVA Suit:**\n- **Measurements to be Verified:**\n- **Atmosphere O2 / Pressure:** Verify that the suit atmosphere (O2 fraction and pressure) closely matches the cabin atmosphere at suit interfaces.\n- **Ignition Sources/ Electrical Systems:** Ensure that electrical ignition sources are properly controlled, including verifying circuit current limiting and nearby materials and geometry under the actual suit atmosphere.\n- **Practical Next Step:**\n- Conduct a test to verify wire gauge, circuit current limiting, and nearby materials and geometry under the actual suit atmosphere. This will help ensure that any wiring faults near the breathing circuit do not cause an ignition source or electrical failure.\n\n[LIT-EVA-WIRE] [LIT-ATM-SUIT] [LIT-ATM-GENERAL] [LIT-ATM-MOC]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 40.8,
+     "words": 118,
+     "answer": "**Verification Plan for Wiring Faults Near the Breathing Circuit in an EVA Suit:**\n- **Measurements to be Verified:**\n- **Atmosphere O2 / Pressure:** Verify that the suit atmosphere (O2 fraction and pressure) closely matches the cabin atmosphere at suit interfaces.\n- **Ignition Sources/ Electrical Systems:** Ensure that electrical ignition sources are properly controlled, including verifying circuit current limiting and nearby materials and geometry under the actual suit atmosphere.\n- **Practical Next Step:**\n- Conduct a test to verify wire gauge, circuit current limiting, and nearby materials and geometry under the actual suit atmosphere. This will help ensure that any wiring faults near the breathing circuit do not cause an ignition source or electrical failure.\n\n[LIT-EVA-WIRE] [LIT-ATM-SUIT] [LIT-ATM-GENERAL] [LIT-ATM-MOC]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "design-pt",
+    "question": "Estou projetando um habitat lunar a 57 kPa com 34% de O2 usando Nomex e espuma de poliuretano. O que devo verificar primeiro?",
+    "tools": [
+     "fire_safety_factors",
+     "materials_evidence",
+     "assess_atmosphere"
+    ],
+    "blocks": [
+     "matrix",
+     "table",
+     "chart",
+     "table"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 65.1,
+     "words": 64,
+     "answer": "The strongest relevant evidence is that the cabin atmosphere (O2 fraction and total pressure) is a decisive factor in fire safety for a lunar habitat. The order of factors follows NASA incident history, with higher O2 concentration or partial pressure generally raising flammability.\n\nIf not, consider testing materials and components under the design atmosphere to ensure they meet safety standards.\n\n[LIT-MOON-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 60.9,
+     "words": 64,
+     "answer": "The strongest relevant evidence is that the cabin atmosphere (O2 fraction and total pressure) is a decisive factor in fire safety for a lunar habitat. The order of factors follows NASA incident history, with higher O2 concentration or partial pressure generally raising flammability.\n\nIf not, consider testing materials and components under the design atmosphere to ensure they meet safety standards.\n\n[LIT-MOON-EXTERIOR] [LIT-ATM-GENERAL] [LIT-ATM-MOC] [LIT-ATM-ARTEMIS]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "design-pt",
+    "question": "Explique de forma mais simples.",
+    "tools": [],
+    "blocks": [],
+    "base": {
+     "mode": "llm",
+     "s": 27.7,
+     "words": 65,
+     "answer": "The primary factor to check first is the cabin atmosphere, specifically the oxygen fraction and total pressure. Higher concentrations of O2 or increased partial pressures generally increase flammability.\n\nNext, verify that materials like Nomex and polyurethane meet safety standards under this design atmosphere. If not, test additional materials and components at the designed pressure and concentration to ensure they are safe for a lunar habitat."
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 27.2,
+     "words": 65,
+     "answer": "The primary factor to check first is the cabin atmosphere, specifically the oxygen fraction and total pressure. Higher concentrations of O2 or increased partial pressures generally increase flammability.\n\nNext, verify that materials like Nomex and polyurethane meet safety standards under this design atmosphere. If not, test additional materials and components at the designed pressure and concentration to ensure they are safe for a lunar habitat."
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "history",
+    "question": "What did Apollo 1 teach engineers about cabin atmospheres?",
+    "tools": [
+     "search_evidence"
+    ],
+    "blocks": [],
+    "base": {
+     "mode": "llm",
+     "s": 30.4,
+     "words": 30,
+     "answer": "The next step would be to conduct further testing on materials that burn in microgravity to ensure they do not pose safety risks during future missions.\n\n[LIT-APOLLO1] [F06] [LIT-APOLLO1-LESSON] [LIT-ATM-SUIT]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 32.4,
+     "words": 30,
+     "answer": "The next step would be to conduct further testing on materials that burn in microgravity to ensure they do not pose safety risks during future missions.\n\n[LIT-APOLLO1] [F06] [LIT-APOLLO1-LESSON] [LIT-ATM-SUIT]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   },
+   {
+    "case": "concept",
+    "question": "What is a cool flame and why did FLEX find them?",
+    "tools": [
+     "flex_query"
+    ],
+    "blocks": [
+     "table"
+    ],
+    "base": {
+     "mode": "llm",
+     "s": 35.2,
+     "words": 98,
+     "answer": "A cool flame is a phenomenon where combustion is suppressed or extinguished, typically due to the presence of an effective fire suppressant. FLEX found these cool flames by conducting tests in microgravity environments using various liquid fuels and gaseous fire suppressants like CO2, He, and SF6.\n\nThis indicates that there is a significant reduction in flame spread when using He as a fire suppressant.\n\nThe practical next step would be to validate this finding by conducting further experiments under controlled conditions, ensuring that the results can be replicated and generalized to other scenarios or fuels.\n\n[PSI-69] [F02] [F03]"
+    },
+    "new": {
+     "mode": "llm",
+     "status": "completed",
+     "s": 35.8,
+     "words": 98,
+     "answer": "A cool flame is a phenomenon where combustion is suppressed or extinguished, typically due to the presence of an effective fire suppressant. FLEX found these cool flames by conducting tests in microgravity environments using various liquid fuels and gaseous fire suppressants like CO2, He, and SF6.\n\nThis indicates that there is a significant reduction in flame spread when using He as a fire suppressant.\n\nThe practical next step would be to validate this finding by conducting further experiments under controlled conditions, ensuring that the results can be replicated and generalized to other scenarios or fuels.\n\n[PSI-69] [F02] [F03]"
+    },
+    "identical_answer": true,
+    "same_tools_blocks_sources": true
+   }
+  ]
+ },
+ "three_simultaneous_judges": {
+  "base": [
+   {
+    "q": "Show the independent measurements for Sa",
+    "mode": "offline",
+    "reason": "busy",
+    "s": 25.0,
+    "words": 115
+   },
+   {
+    "q": "What did Apollo 1 teach engineers about ",
+    "mode": "offline",
+    "reason": "busy",
+    "s": 25.0,
+    "words": 163
+   },
+   {
+    "q": "Why does the curve keep descending after",
+    "mode": "llm",
+    "reason": null,
+    "s": 26.5,
+    "words": 70
+   }
+  ],
+  "new": [
+   {
+    "q": "Why does the curve keep descending after",
+    "mode": "llm",
+    "reason": null,
+    "s": 24.9,
+    "words": 70
+   },
+   {
+    "q": "Show the independent measurements for Sa",
+    "mode": "llm",
+    "reason": null,
+    "s": 67.0,
+    "words": 29
+   },
+   {
+    "q": "What did Apollo 1 teach engineers about ",
+    "mode": "llm",
+    "reason": null,
+    "s": 95.4,
+    "words": 30
+   }
+  ]
+ }
+}

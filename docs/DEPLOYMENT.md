@@ -6,6 +6,10 @@ Run START_AEROFOX.bat. It starts pinned independent inference, loads the bundled
 
 Use an empty team-owned Git repository. Import the extracted source with git init, git add and git commit if needed. Share the archive and checksum with collaborators. Open a branch for an edit, review changes, run pytest and a real-model smoke test, and use a pull request. Keep previous release tags for rollback. Keep weights, secrets and scratch caches outside Git.
 
+## Keeping the public demo up
+
+Use `START_AEROFOX_PUBLICO.bat` (Windows) or `deploy/oracle/setup.sh` (free Oracle ARM VM). Both run `scripts/supervisor.py`, which health-checks the model, the app and the tunnel every 10 s and restarts only what failed. See [ESTABILIDADE.md](ESTABILIDADE.md) for the fixed free URL (Tailscale Funnel), monitoring and chaos/soak tests.
+
 ## Temporary judge access
 
 Run a separate public-demo instance and share its temporary HTTPS URL only while you supervise the session. Use a local browser signed out from team accounts to smoke-test the generated URL, a notebook-independent NASA lookup, a Moon-to-Mars visual, and a measured CSV. Keep the inference endpoint private.

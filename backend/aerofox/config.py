@@ -36,14 +36,14 @@ class Settings:
     data_dir: Path = ROOT / "data"
     frontend_dir: Path = ROOT / "frontend"
     snapshot_version: str = os.environ.get("AEROFOX_SNAPSHOT", "2026-11-14.1")
-    app_version: str = "1.1.1"
+    app_version: str = "1.1.2"
     # A team-controlled loopback llama.cpp service is the default inference engine.
     llm_enabled: bool = os.environ.get("AEROFOX_LLM", "auto").lower() != "off"
     model: str = os.environ.get("AEROFOX_MODEL", "aerofox-qwen-1.5b")
     llm_url: str = os.environ.get("AEROFOX_LLM_URL", "http://127.0.0.1:8793")
-    llm_timeout_s: float = float(os.environ.get("AEROFOX_LLM_TIMEOUT", "65"))
-    llm_queue_wait_s: float = float(os.environ.get("AEROFOX_LLM_QUEUE_WAIT", "25"))
-    turn_deadline_s: float = float(os.environ.get("AEROFOX_TURN_DEADLINE", "100"))
+    llm_timeout_s: float = float(os.environ.get("AEROFOX_LLM_TIMEOUT", "120"))
+    llm_queue_wait_s: float = float(os.environ.get("AEROFOX_LLM_QUEUE_WAIT", "240"))
+    turn_deadline_s: float = float(os.environ.get("AEROFOX_TURN_DEADLINE", "300"))
     # Abuse and cost protection for the public demo
     max_message_chars: int = _int("AEROFOX_MAX_MESSAGE_CHARS", 4000)
     rate_per_minute: int = _int("AEROFOX_RATE_PER_MINUTE", 12)

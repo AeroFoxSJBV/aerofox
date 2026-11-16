@@ -34,6 +34,24 @@ A janela do terminal informa o endereço e o perfil usado. O cache padrão fica 
 
 Para macOS ou Linux, consulte [docs/MODEL_RUNTIME.md](docs/MODEL_RUNTIME.md). O procedimento usa um llama.cpp compatível e `sh ./start_aerofox.sh --external-local-model`.
 
+## Link público para colegas e jurados (um clique)
+
+Dê dois cliques em `START_AEROFOX_PUBLICO.bat`. Ele:
+
+1. confere o Python e prepara o ambiente `.venv`;
+2. confere o cliente gratuito `cloudflared` e **pergunta** antes de instalá-lo via `winget`;
+3. exige a porta 8012 livre;
+4. inicia o **supervisor** (`scripts/supervisor.py`), que sobe o modelo local, a aplicação em modo de demonstração pública e o túnel. A cada 10 s ele verifica as três partes e reinicia sozinho a que cair.
+
+O link aparece na janela como `PUBLIC LINK` e fica salvo em `logs\public_url.txt`. O estado de cada parte fica em `logs\status.json`.
+
+Cuidados:
+
+- O link do Quick Tunnel (`….trycloudflare.com`) muda quando o túnel reinicia. Para os jurados, use um **link fixo e gratuito com Tailscale Funnel** (`AEROFOX_TUNNEL=tailscale` no `.env`).
+- Ligue o PC na tomada e pause o Windows Update durante a avaliação. Rode `scripts\soak_test.py` pelo link público.
+
+O passo a passo completo está em [docs/ESTABILIDADE.md](docs/ESTABILIDADE.md). O servidor do modelo (127.0.0.1:8793/8796) nunca é publicado. Encerre com Ctrl+C.
+
 ## Publicar o projeto no GitHub
 
 Uma pessoa da equipe cria um repositório GitHub vazio, por exemplo `aerofox`, e convida os colegas em **Settings → Collaborators**. Escolham a visibilidade do repositório. Para publicação aberta, mantenham o crédito da NASA e consultem as condições de cada fonte em [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md).

@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import logging
 import math
+import os
 import re
 import threading
 import time
@@ -17,6 +18,7 @@ from ..config import settings
 from ..evidence.store import get_store
 from .state import Session
 from .planner import compose, make_plan
+from .progress import emit
 from .tools import TOOLS, result_for_model, run_tool
 
 # Project edits have a separate user-facing validation path.
@@ -28,9 +30,15 @@ CITATION = re.compile(r"\[([A-Z][A-Z0-9]*(?:-[A-Za-z0-9]+)*)\]")
 BRACKET = re.compile(r"\[([^\]\r\n]{1,180})\]")
 QUANTITY = re.compile(r"(?<![\w-])[-−]?\d+(?:[.,]\d+)?(?:[eE][-+]?\d+)?")
 IDENTIFIER = re.compile(r"\b(?:FLEX|PSI|NTRS|SAFFIRE|NASA-STD)-[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*\b", re.I)
+HEADING_ONLY = re.compile(r"[-*#>\s]*(?:(?:\*\*|__)[^\n]{1,80}?(?:\*\*|__)\s*:?|[^.!?\n]{1,60}:)")
 SENTENCE_END = re.compile(r"""[.!?](?:["”')*]*)(?=\s|$)""")
-JOIN = threading.BoundedSemaphore(3)    # one running request plus two waiting clients
+# One generation at a time (CPU/GPU memory); several visitors may wait with a visible position.
+MAX_WAITING = max(1, int(os.environ.get("AEROFOX_LLM_MAX_WAITING", "6")))
+JOIN = threading.BoundedSemaphore(1 + MAX_WAITING)
 SLOT = threading.BoundedSemaphore(1)
+_WAITING: list = []                     # ticket order of visitors waiting for SLOT
+_WAIT_LOCK = threading.Lock()
+_RECENT_TURNS: list = []                # durations of recent model turns, for the wait estimate
 log = logging.getLogger("aerofox.inference")
 
 
@@ -82,19 +90,38 @@ def ready() -> bool:
         return False
 
 
+def typical_turn_s() -> float:
+    return sorted(_RECENT_TURNS)[len(_RECENT_TURNS) // 2] if _RECENT_TURNS else 60.0
+
+
 @contextmanager
 def _queue(deadline):
     if not JOIN.acquire(False):
         raise LLMUnavailable("local model queue is full", "busy")
+    ticket = object()
+    with _WAIT_LOCK:
+        _WAITING.append(ticket)
     try:
-        wait = min(settings.llm_queue_wait_s, max(0, deadline - time.monotonic()))
-        if not SLOT.acquire(timeout=wait):
-            raise LLMUnavailable("local model queue wait expired", "busy")
+        wait_until = time.monotonic() + min(settings.llm_queue_wait_s, max(0, deadline - time.monotonic()))
+        while not SLOT.acquire(timeout=2):
+            with _WAIT_LOCK:
+                pos = _WAITING.index(ticket) + 1
+            emit({"type": "status", "stage": "queue", "position": pos, "eta_s": max(5, round(pos * typical_turn_s()))})
+            if time.monotonic() >= wait_until:
+                raise LLMUnavailable("local model queue wait expired", "busy")
+        with _WAIT_LOCK:
+            _WAITING.remove(ticket)
+        started = time.monotonic()
         try:
             yield
         finally:
+            _RECENT_TURNS.append(time.monotonic() - started)
+            del _RECENT_TURNS[:-20]
             SLOT.release()
     finally:
+        with _WAIT_LOCK:
+            if ticket in _WAITING:
+                _WAITING.remove(ticket)
         JOIN.release()
 
 
@@ -292,7 +319,11 @@ def _ground(text, results, *, truncated=False, question=""):
         if parts:
             paragraphs.append(lead + " ".join(parts))
     text = ("\n" if any(line.startswith("- ") for line in paragraphs) else "\n\n").join(paragraphs)
-    if not text:
+    # Small models sometimes answer with headings and citations only ("**Evidence:**" ...), which is empty for the
+    # reader. Headings are kept in a normal answer (they give it structure); they just do not count as content.
+    content = [p for p in paragraphs if not HEADING_ONLY.fullmatch(CITATION.sub("", p).strip())]
+    prose_words = len(re.findall(r"[^\W\d_]{2,}", CITATION.sub("", " ".join(content))))
+    if not text or prose_words < 5:
         raise LLMUnavailable("model did not produce a grounded qualitative explanation")
     if allowed and not CITATION.search(text):
         text += "\n\n" + " ".join(f"[{identifier}]" for identifier in ordered[:4])
@@ -357,6 +388,7 @@ def run_turn(session: Session, user_text: str, understanding, deadline: float) -
     recovery = []
     reason = None
     with _queue(deadline):
+        emit({"type": "status", "stage": "planning"})
         try:
             raw, finish = _complete(PLANNING_PROMPT, _serialize(context) + "\nAvailable tools:\n" +
                                     "\n".join(map(_describe, MODEL_TOOLS.values())), 240, deadline, usage,
@@ -385,8 +417,10 @@ def run_turn(session: Session, user_text: str, understanding, deadline: float) -
                                      call.get("tool") not in names])[:3]
         elif not proposed and candidates and candidates[0]["tool"] == "search_evidence":
             proposed = candidates[:1]
+        emit({"type": "status", "stage": "tools", "tools": [c.get("tool") for c in proposed if isinstance(c, dict)]})
         results = _execute(session, proposed, context, lambda: deadline - time.monotonic())
         packed = _evidence_for_answer(results)
+        emit({"type": "status", "stage": "answering"})
         answer_input = _compact({"question": user_text, "language": session.language,
                                  "context": context["previous"][-2:], "project": context["project"],
                                  "evidence": packed}, 12500)

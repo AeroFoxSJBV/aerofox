@@ -15,6 +15,8 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = Path(os.environ.get("AEROFOX_MODEL_DIR", ROOT / ".models"))
+LOGS = ROOT / "logs"
+LOGS.mkdir(exist_ok=True)
 RUNTIME = "llama-b8230-bin-win-cpu-x64.zip"
 WEIGHTS = "qwen2.5-1.5b-instruct-q4_k_m.gguf"
 GPU_RUNTIME = "llama-b8230-bin-win-vulkan-x64.zip"
@@ -131,13 +133,14 @@ def start_default(profile="auto"):
     model = _download(GPU_WEIGHTS if gpu else WEIGHTS)
     threads = str(min(6, max(2, (os.cpu_count() or 4) // 2)))
     cmd = [str(runtime), "--model", str(model), "--host", "127.0.0.1", "--port", str(port),
-           "--alias", alias, "-c", "8192", "-np", "1", "-t", threads, "--log-disable", "--cache-ram", "0"]
+           "--alias", alias, "-c", "8192", "-np", "1", "-t", threads, "--cache-ram", "0",
+           "--log-file", str(LOGS / "llama-server.log")]
     if gpu:
         cmd += ["--reasoning-budget", "0", "--device", _vulkan_device(runtime), "--n-gpu-layers", "99"]
     process = subprocess.Popen(cmd, cwd=runtime.parent, creationflags=subprocess.CREATE_NO_WINDOW)
-    for _ in range(150):
+    for _ in range(750):                      # up to 5 min: slow disks / first load / antivirus scans
         if process.poll() is not None:
-            raise RuntimeError("llama.cpp stopped while loading its weights")
+            raise RuntimeError("llama.cpp stopped while loading its weights (see logs/llama-server.log)")
         if ready(endpoint, alias):
             return process, alias, endpoint
         time.sleep(.4)

@@ -1,9 +1,12 @@
 """Per-session state: typed project parameters plus a compact conversation record."""
 from __future__ import annotations
 
+import os
+import sqlite3
 import threading
 import time
 import uuid
+from pathlib import Path
 from collections import OrderedDict
 from typing import Literal
 
@@ -88,11 +91,43 @@ class Session(BaseModel):
 class SessionStore:
     """Thread-safe in-memory sessions with TTL and LRU eviction. Each session is isolated."""
 
-    def __init__(self, max_sessions: int, ttl_s: int):
+    def __init__(self, max_sessions: int, ttl_s: int, db_path: str | None = None):
         self.max, self.ttl = max_sessions, ttl_s
         self._d: OrderedDict[str, Session] = OrderedDict()
         self._locks: dict[str, threading.Lock] = {}
         self._g = threading.Lock()
+        # Optional on-disk copy so a restart by the supervisor does not lose a visitor's conversation.
+        self._db = None
+        if db_path:
+            try:
+                Path(db_path).parent.mkdir(parents=True, exist_ok=True)
+                self._db = sqlite3.connect(db_path, check_same_thread=False, timeout=5)
+                self._db.execute("CREATE TABLE IF NOT EXISTS sessions (id TEXT PRIMARY KEY, last_used REAL, body TEXT)")
+                self._db.execute("DELETE FROM sessions WHERE last_used < ?", (time.time() - ttl_s,))
+                self._db.commit()
+            except sqlite3.Error:
+                self._db = None
+
+    def persist(self, s: "Session") -> None:
+        if self._db is None:
+            return
+        try:
+            with self._g:
+                self._db.execute("INSERT OR REPLACE INTO sessions VALUES (?,?,?)", (s.id, s.last_used, s.model_dump_json()))
+                self._db.commit()
+        except (sqlite3.Error, ValueError):
+            pass  # persistence is best effort; the in-memory session remains authoritative
+
+    def _load(self, sid: str) -> "Session | None":
+        if self._db is None:
+            return None
+        try:
+            row = self._db.execute("SELECT body, last_used FROM sessions WHERE id = ?", (sid,)).fetchone()
+            if not row or time.time() - row[1] > self.ttl:
+                return None
+            return Session.model_validate_json(row[0])
+        except (sqlite3.Error, ValueError):
+            return None
 
     def get_or_create(self, sid: str | None) -> Session:
         now = time.time()
@@ -103,6 +138,11 @@ class SessionStore:
                 s.last_used = now
                 self._d[sid] = s
                 return s
+            if sid and (restored := self._load(sid)) is not None:
+                restored.last_used = now
+                self._d[sid] = restored
+                self._locks.setdefault(sid, threading.Lock())
+                return restored
             if len(self._d) >= self.max:
                 old, _ = self._d.popitem(last=False)
                 self._locks.pop(old, None)
@@ -118,6 +158,9 @@ class SessionStore:
     def get(self, sid: str) -> Session | None:
         with self._g:
             self._evict(time.time())
+            if sid not in self._d and (restored := self._load(sid)) is not None:
+                self._d[sid] = restored
+                self._locks.setdefault(sid, threading.Lock())
             return self._d.get(sid)
 
     def reset(self, sid: str) -> Session:

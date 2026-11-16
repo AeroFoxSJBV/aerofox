@@ -23,3 +23,7 @@ dist_zip/
 .models/
 *.gguf
 *.safetensors
+
+# runtime state and logs
+var/
+logs/

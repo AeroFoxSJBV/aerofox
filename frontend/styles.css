@@ -182,3 +182,5 @@ details.trace summary { cursor: pointer; }
 .flow-branches a { color: var(--accent); text-decoration: none; }
 .flow-branches a:hover, .flow-branches a:focus-visible { text-decoration: underline; }
 @media (max-width: 480px) { [data-block-type="flowchart"] .block-head { align-items: flex-start; flex-wrap: wrap; } [data-block-type="flowchart"] .block-head a { margin-left: 0; } }
+
+.typing .elapsed { font-family: var(--mono); font-size: 12px; color: var(--muted); }

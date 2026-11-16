@@ -12,6 +12,7 @@ import os
 import threading
 import time
 import uuid
+import re
 from collections import defaultdict, deque
 from contextlib import asynccontextmanager
 from urllib.parse import urlsplit
@@ -25,6 +26,7 @@ from pydantic import BaseModel, Field
 from ..agent import llm
 from ..agent.orchestrator import BUDGET, SESSIONS, handle_turn
 from ..agent.state import ProjectState
+from ..agent import progress
 from ..config import settings
 from ..evidence.store import get_store
 from ..science.workflows import mermaid_source
@@ -144,6 +146,55 @@ def chat(body: ChatIn, request: Request):
     return out
 
 
+# ---------------------------------------------------------------- background jobs
+# The browser starts a turn and polls for progress. Every HTTP request finishes in milliseconds, so tunnels
+# and proxies that cut long requests (Cloudflare ~100 s) or buffer streams never break an answer.
+JOBS: dict[str, dict] = {}
+JOBS_LOCK = threading.Lock()
+MAX_ACTIVE_JOBS = 12
+
+
+@app.post("/api/chat/jobs")
+def chat_job_start(body: ChatIn, request: Request):
+    if not LIMIT.allow(client_key(request)):
+        raise HTTPException(429, "Too many requests - please wait a minute.")
+    rid = request.state.rid
+    jid = uuid.uuid4().hex
+    job = {"events": [], "done": False, "created": time.time(), "result": None}
+    with JOBS_LOCK:
+        for k in [k for k, j in JOBS.items() if time.time() - j["created"] > 1800]:
+            JOBS.pop(k, None)
+        if sum(1 for j in JOBS.values() if not j["done"]) >= MAX_ACTIVE_JOBS:
+            raise HTTPException(503, "AeroFox is at capacity; please try again in a few minutes.")
+        JOBS[jid] = job
+
+    def work():
+        try:
+            with progress.use_sink(job["events"].append):
+                out = handle_turn(body.session_id, body.message, rid)
+            job["result"] = out
+        except Exception:  # noqa: BLE001
+            log.exception("rid=%s job failed", rid)
+            job["result"] = {"error": "internal error", "request_id": rid}
+        finally:
+            job["done"] = True
+
+    threading.Thread(target=work, name=f"job-{rid}", daemon=True).start()
+    return {"job_id": jid, "request_id": rid}
+
+
+@app.get("/api/chat/jobs/{jid}")
+def chat_job_poll(jid: str, after: int = 0):
+    if not re.fullmatch(r"[a-f0-9]{32}", jid):
+        raise HTTPException(404, "unknown job")
+    job = JOBS.get(jid)
+    if job is None:
+        raise HTTPException(404, "unknown or expired job")
+    events = job["events"][max(0, after):]
+    return {"events": events, "next": max(0, after) + len(events), "done": job["done"],
+            "result": job["result"] if job["done"] else None}
+
+
 @app.get("/api/health")
 def health():
     s = get_store()
@@ -153,7 +204,8 @@ def health():
             "llm": {"configured": llm.available(), "ready": llm.ready(),
                     "model": settings.model if llm.available() else None,
                     "runtime": "llama.cpp", "daily_budget_left": max(0, BUDGET.limit - BUDGET.used)},
-            "sessions": len(SESSIONS)}
+            "sessions": len(SESSIONS), "service": progress.snapshot(),
+            "queue": {"max_waiting": llm.MAX_WAITING, "typical_turn_s": round(llm.typical_turn_s(), 1)}}
 
 
 @app.post("/api/sessions")
