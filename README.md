@@ -1,5 +1,6 @@
-https://github.com/user-attachments/assets/240509f2-f080-4744-af4f-53fd5e23e7c7
+# Project presentation: https://drive.google.com/file/d/1IigNrD4RkP0JqnkyVig3a6cp-zgWLfEA/view?usp=sharing
 
+# Usage Example: https://github.com/user-attachments/assets/240509f2-f080-4744-af4f-53fd5e23e7c7
 
 
 # 🦊 AeroFox: Evidence-Grounded Spacecraft Fire Safety Assistant
