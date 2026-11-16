@@ -1,6 +1,6 @@
 # AeroFox 1.1.2: o que mudou para a estabilidade
 
-Esta versão parte da 1.1.1 entregue pelo Codex. O objetivo foi um só: **o link não cair quando os jurados acessarem**.
+Esta versão parte da 1.1.1. O objetivo foi um só: **o link não cair quando os jurados acessarem**.
 
 O que **não** mudou:
 

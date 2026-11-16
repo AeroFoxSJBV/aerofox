@@ -11,7 +11,7 @@ Model-enabled tests must not be combined with an offline suite or another proces
 ## Historical offline baseline
 
 All numbers below were produced on 14 Nov 2026 in the development container (Linux, Python 3.13) and are stored in
-`reports/`. "Offline engine" means no language model was available; **no live Claude call was made** during development.
+`reports/`. "Offline engine" means no language model was available; **no live commercial LLM API call was made** during development.
 
 ## How to run
 
@@ -44,7 +44,7 @@ python scripts/load_test.py --users 50 --turns 4
 | `tests/test_science.py` | unit conversions, O₂ %/fraction, analytic and convergence verification of the compartment model, mass balance, invalid-model rejection, d²-law, atmosphere warnings | pass |
 | `tests/test_data_integrity.py` | manifest checksums (600+ files), catalog counts, FLEX re-keying (r > 0.98), FLEX-035 values, Saffire-II 2-6 flow, physical ranges, findings completeness | pass |
 | `tests/test_ingest.py` | retry with backoff on 5xx, last-known-good preserved on failure, content-type/status validation, size limit, unreachable host | pass |
-| `tests/test_agent.py` | intent/entity extraction EN/PT, critical lunar-chart request, 5-turn continuity, 8 concurrent sessions isolation, hostile input, retrieval recall, **mocked Claude loop**: tool charts attached, fake citation removed, tool error passed as error, provider outage → offline, refusal → offline, budget → offline | pass |
+| `tests/test_agent.py` | intent/entity extraction EN/PT, critical lunar-chart request, 5-turn continuity, 8 concurrent sessions isolation, hostile input, retrieval recall, **mocked LLM tool loop**: tool charts attached, fake citation removed, tool error passed as error, provider outage → offline, refusal → offline, budget → offline | pass |
 | `tests/test_api.py` | response contract, CSV export, cross-session artifact access denied, input validation, path traversal, security headers, rate limiting | pass |
 | **Total** | | **52 / 52** |
 
@@ -94,7 +94,7 @@ The launcher was verified from a clean `.venv` (runtime requirements only).
 
 ### Not tested
 
-Live Claude responses and their latency/cost; Windows execution of `START_AEROFOX.bat` (launcher logic tested on Linux);
+Live commercial LLM API responses and their latency/cost; Windows execution of `START_AEROFOX.bat` (launcher logic tested on Linux);
 Docker image build (no Docker daemon available; the image's file set was assembled and smoke-tested); a deployed URL.
 
 ## Verified results for 1.1.0

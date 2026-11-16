@@ -1,6 +1,6 @@
 # Imported baseline audit
 
-This preserves the 1.0.0 findings for provenance. The current independent runtime and revised evidence are in MODEL_RUNTIME.md and ../CODEX_HANDOFF.md.
+This preserves the 1.0.0 findings for provenance. The current independent runtime and revised evidence are in MODEL_RUNTIME.md and TESTING.md.
 
 
 ## 1. Baseline audit (14 Nov 2026, 22:02 UTC)
@@ -11,7 +11,7 @@ This preserves the 1.0.0 findings for provenance. The current independent runtim
 | GitHub | No GitHub account linked to the session | Cannot inspect or push an existing repo | Local git repo with commits; push commands in START_HERE |
 | Visual reference | Home-page screenshot and logo provided mid-session | Defines identity | Reproduced layout; logo redrawn as SVG |
 | Network | NASA hosts blocked by default policy | Data phase blocked | Allow-listed psi/ntrs/nasa/science/standards/sma/spinoff hosts (with user approval) |
-| LLM | No Anthropic API key in the environment | Live model untestable | Offline engine + mocked-provider tests; key configurable via `.env` |
+| LLM | No commercial LLM API key in the environment | Live model untestable | Offline engine + mocked-provider tests; key configurable via `.env` |
 | Docker | CLI present, no daemon | Image not buildable here | File set simulated and smoke-tested |
 | Competition site | TLS chain fails via proxy; WebFetch blocked | Rules not verified | Requirements taken from the brief; marked "verify" |
 
@@ -31,7 +31,7 @@ length/width transposed; BASS-II final O₂ above initial; "037 mm" thickness; z
 | Colab analysis notebook with outputs | `notebooks/…ipynb` | executed end-to-end (nbconvert) | 13 figures, 10 tables, 12 findings | passed | Colab run itself not performed here |
 | Findings catalog feeding the agent | `data/findings/findings.json` | completeness test | 12 findings | passed | |
 | Hybrid retrieval with applicability | `evidence/store.py` | recall test | ≥ 7/8 targets in top-5 | passed | No embeddings (not needed at this corpus size) |
-| Tool-using agent, no invented numbers | `agent/tools.py`, `llm.py` | mocked-provider tests | pass | partial | **Live Claude untested** |
+| Tool-using agent, no invented numbers | `agent/tools.py`, `llm.py` | mocked-provider tests | pass | partial | **Live commercial LLM untested** |
 | Offline fallback | `agent/planner.py` | benchmark | 243/243, 45/45 | passed | Template prose; EN summaries in PT answers |
 | Context and typed project memory | `agent/state.py` | multi-turn benchmark, tests | 180/180 turns | passed | In-memory only |
 | EN + PT | `nlu.py`, planner | PT benchmark | 81/81 | passed | |

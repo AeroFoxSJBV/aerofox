@@ -20,5 +20,5 @@ Upload notebooks/AeroFox_Comprehensive_Data_Analysis.ipynb to Google Colab, sele
 
 ## Team edits
 
-Read docs/ARCHITECTURE.md and TEAM_GUIDE.md before modifying code or model pins. See CODEX_HANDOFF.md for the active acceptance and test records. Reported measurements and engineering models use the retained data snapshot 2026-11-14.1.
+Read docs/ARCHITECTURE.md and TEAM_GUIDE.md before modifying code or model pins. See docs/TESTING.md for the acceptance and test records. Reported measurements and engineering models use the retained data snapshot 2026-11-14.1.
 
